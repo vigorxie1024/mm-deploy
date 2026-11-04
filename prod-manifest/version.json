@@ -1,6 +1,6 @@
 {
-  "version": "2026-11-04T20-api-3pq",
-  "note": "api 通道 + 三方圆桌",
+  "version": "2026-11-04T21-redact-v7e",
+  "note": "圆桌撤回接口",
   "files": [
     {
       "file": ".deploy/auto-update.sh",
@@ -11,8 +11,8 @@
     {
       "file": "server/server.js",
       "obj": "server__server.js.gz",
-      "sha": "df304cf8d3bc89f75320cba55ab3e4c33d97e543b74dac3f8cd519532d89da18",
-      "bytes": 306778
+      "sha": "a2f1b55dcaf7d6d78c8e92e6037b7b9d5fa14204178ee5dfc735bb48b9bab9f5",
+      "bytes": 307905
     },
     {
       "file": "web/cschat-cell.html",
