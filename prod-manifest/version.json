@@ -1,0 +1,24 @@
+{
+  "version": "2026-11-04T19-xjzc",
+  "note": "三方圆桌上线（room API + 细胞页圆桌UI + 子智能体）",
+  "files": [
+    {
+      "file": "server/server.js",
+      "obj": "server__server.js.gz",
+      "sha": "df304cf8d3bc89f75320cba55ab3e4c33d97e543b74dac3f8cd519532d89da18",
+      "bytes": 306778
+    },
+    {
+      "file": "web/cschat-cell.html",
+      "obj": "web__cschat-cell.html.gz",
+      "sha": "b526034e32a531e7934705d79aa42a5ee3a83fb226ee4fab902d43aa4e6781af",
+      "bytes": 18366
+    },
+    {
+      "file": "web/live-chat.js",
+      "obj": "web__live-chat.js.gz",
+      "sha": "3dadf04f3e69169db8c4a79c27ce1f6201c0c5c25570616a88414ab5df86cd94",
+      "bytes": 5822
+    }
+  ]
+}
