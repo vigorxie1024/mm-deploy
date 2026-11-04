@@ -1,6 +1,6 @@
 {
-  "version": "2026-11-04T21-redact-v7e",
-  "note": "圆桌撤回接口",
+  "version": "2026-11-04T22-ui-7ik",
+  "note": "圆桌发送失败可见 + 撤回接口",
   "files": [
     {
       "file": ".deploy/auto-update.sh",
@@ -17,8 +17,8 @@
     {
       "file": "web/cschat-cell.html",
       "obj": "web__cschat-cell.html.gz",
-      "sha": "b526034e32a531e7934705d79aa42a5ee3a83fb226ee4fab902d43aa4e6781af",
-      "bytes": 18366
+      "sha": "dde2df9b3464db91cabd0bb58bb7516031ec7af2657bcc3d1a793110483b6e21",
+      "bytes": 19008
     },
     {
       "file": "web/live-chat.js",
