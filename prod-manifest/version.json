@@ -1,7 +1,13 @@
 {
-  "version": "2026-11-04T19-xjzc",
-  "note": "三方圆桌上线（room API + 细胞页圆桌UI + 子智能体）",
+  "version": "2026-11-04T19-b-cfbg",
+  "note": "自更新脚本自修复（node --check 临时后缀）+ 三方圆桌",
   "files": [
+    {
+      "file": ".deploy/auto-update.sh",
+      "obj": "upd__auto-update.sh.gz",
+      "sha": "c96581a2d4b860f28358bbdcf0f8e31bf4152c4669de6ac29e31a72f41def863",
+      "bytes": 3352
+    },
     {
       "file": "server/server.js",
       "obj": "server__server.js.gz",
