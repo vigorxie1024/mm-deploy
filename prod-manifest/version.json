@@ -1,12 +1,12 @@
 {
-  "version": "2026-11-04T20-fast-w3u",
-  "note": "10 秒级自更新 + 三方圆桌",
+  "version": "2026-11-04T20-api-3pq",
+  "note": "api 通道 + 三方圆桌",
   "files": [
     {
       "file": ".deploy/auto-update.sh",
       "obj": "upd__auto-update.sh.gz",
-      "sha": "00097e2645f128527cf7431600f02a6b8b8bf24a540711a665c3cafa7ef80045",
-      "bytes": 3609
+      "sha": "b23a16690e56842f0c73429e8784baf5085ebf033957236a1708178293b964c6",
+      "bytes": 3624
     },
     {
       "file": "server/server.js",
