@@ -7,15 +7,16 @@ T=/www/wwwroot/moonarmor
 DEP=$T/.deploy
 LOG=$DEP/auto-update.log
 VERF=$DEP/version.txt
-RAW=https://raw.githubusercontent.com/vigorxie1024/mm-deploy/main/prod-manifest
-JSD=https://cdn.jsdelivr.net/gh/vigorxie1024/mm-deploy@main/prod-manifest
+# 事实（2026-11-04 生产实测）：raw.githubusercontent.com 在阿里云 ECS 上 SSL_ERROR_SYSCALL（不可达）
+# 只有 api.github.com 通，且匿名限流 60 次/小时 → 轮询间隔下限约 2 分钟
+# jsDelivr 作为兜底（若可达，可进一步缩短间隔）
 API=https://api.github.com/repos/vigorxie1024/mm-deploy/contents/prod-manifest
+JSD=https://cdn.jsdelivr.net/gh/vigorxie1024/mm-deploy@main/prod-manifest
 say(){ echo "[$(date '+%F %T')] $*" >> "$LOG"; }
 
 mkdir -p "$DEP"
 # ① 只取一行版本号（三路回退，raw 优先）
-RV=$(curl -fsSL --max-time 8 "$RAW/ver.txt" 2>/dev/null | tr -d '\r\n ')
-[ -z "$RV" ] && RV=$(curl -fsSL --max-time 8 "$JSD/ver.txt" 2>/dev/null | tr -d '\r\n ')
+RV=$(curl -fsSL --max-time 8 "$JSD/ver.txt?$(date +%s)" 2>/dev/null | tr -d '\r\n ')
 [ -z "$RV" ] && RV=$(curl -fsSL --max-time 10 -H "Accept: application/vnd.github.raw" "$API/ver.txt?ref=main" 2>/dev/null | tr -d '\r\n ')
 [ -z "$RV" ] && { say "取 ver.txt 失败（本轮跳过）"; exit 0; }
 LV=$(cat "$VERF" 2>/dev/null || echo none)
@@ -23,8 +24,7 @@ LV=$(cat "$VERF" 2>/dev/null || echo none)
 say "发现新版本：$LV → $RV"
 
 # ② 取完整 manifest
-MJ=$(curl -fsSL --max-time 15 "$RAW/version.json" 2>/dev/null)
-[ -z "$MJ" ] && MJ=$(curl -fsSL --max-time 15 "$JSD/version.json" 2>/dev/null)
+MJ=$(curl -fsSL --max-time 15 "$JSD/version.json?$(date +%s)" 2>/dev/null)
 [ -z "$MJ" ] && MJ=$(curl -fsSL --max-time 20 -H "Accept: application/vnd.github.raw" "$API/version.json?ref=main" 2>/dev/null)
 [ -z "$MJ" ] && { say "取 version.json 失败，本轮跳过"; exit 0; }
 
@@ -40,9 +40,7 @@ fail=0
 while IFS='|' read -r local obj sha; do
   [ -z "$local" ] && continue
   ok=0
-  for base in "$RAW" "$JSD"; do
-    curl -fsSL --max-time 60 "$base/$obj" -o /tmp/au.gz 2>/dev/null && { ok=1; break; }
-  done
+  curl -fsSL --max-time 30 "$JSD/$obj?$(date +%s)" -o /tmp/au.gz 2>/dev/null && ok=1
   [ "$ok" = "0" ] && curl -fsSL --max-time 60 -H "Accept: application/vnd.github.raw" "$API/$obj?ref=main" -o /tmp/au.gz 2>/dev/null && ok=1
   [ "$ok" = "0" ] && { say "取件失败 $local"; fail=1; break; }
 
