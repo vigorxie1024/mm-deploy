@@ -1,6 +1,6 @@
 {
-  "version": "2026-11-04T23-svc-lo2",
-  "note": "长期只读令牌 + UI 修复",
+  "version": "2026-11-05T09-4th-xnn",
+  "note": "第四位成员 local-1.5b 入网",
   "files": [
     {
       "file": ".deploy/auto-update.sh",
@@ -11,8 +11,8 @@
     {
       "file": "server/server.js",
       "obj": "server__server.js.gz",
-      "sha": "79d1f658df44fac676eeb0ecf25b68eef60b2b86dfe07171a20b8f869419e7f7",
-      "bytes": 308686
+      "sha": "921253af2bcb1e7bf8763a2fd657d09414dee0b3503bd036c350b4d022a401ea",
+      "bytes": 308966
     },
     {
       "file": "web/cschat-cell.html",
