@@ -1,7 +1,7 @@
 {
-  "version": "2026-11-05T23-group",
-  "note": "群消息中枢 v0.0.2：@路由/防循环/turn_limit/记忆导出",
-  "build": "2026-11-05T06:53:05.611Z",
+  "version": "2026-11-05T24-turnreset",
+  "note": "群聊：碳基发言即清零 agent 轮次，避免 6 轮后永久静默",
+  "build": "2026-11-05T09:06:53.949Z",
   "files": [
     {
       "file": "server/server.js",
@@ -66,8 +66,8 @@
     {
       "file": "server/modules/group/group.js",
       "obj": "server__modules_group_group.js.gz",
-      "sha": "2b4151b2d15dfc7ac787eaf7ce92c68623c559e60de729170fd7790bdca9ef77",
-      "bytes": 13581
+      "sha": "666bcd176a854e7078856bc5e047b9d36e34cb80bb9eeca3e8a034b3012f0cce",
+      "bytes": 13850
     }
   ]
 }
