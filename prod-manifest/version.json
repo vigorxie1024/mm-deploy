@@ -1,13 +1,13 @@
 {
-  "version": "2026-11-05T19-diag",
-  "note": "自检端点反映真实路由；补齐 room/rt/auth 路由上线",
-  "build": "2026-11-05T05:39:16.417Z",
+  "version": "2026-11-05T20-ping",
+  "note": "探测部署是否生效 + 加入 zai139 身份位",
+  "build": "2026-11-05T05:43:39.093Z",
   "files": [
     {
       "file": "server/server.js",
       "obj": "server__server.js.gz",
-      "sha": "4387d8df5bf75ee91f094dd42ef8d1cb40b729dd4ed348fecaf1bc12c861e623",
-      "bytes": 319345
+      "sha": "36ca6669fafb8be12f779876c6a13a60d8b1b50d653aca0023fe956b754569f4",
+      "bytes": 319355
     },
     {
       "file": "server/modules/cell/engine.js",
@@ -50,6 +50,12 @@
       "obj": "web__icon-cell-180.png.gz",
       "sha": "a3aa1c1d635e0244a431c786e5ec635d025fcf7e0adf907a508f75cee14983eb",
       "bytes": 1066
+    },
+    {
+      "file": "web/probe.json",
+      "obj": "web__probe.json.gz",
+      "sha": "f7983cda2a5d0e14c755b9085e53a532bda3cbf32ab2741d7e58f7d91670646a",
+      "bytes": 57
     }
   ]
 }
