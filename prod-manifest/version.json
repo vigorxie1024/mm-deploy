@@ -1,7 +1,7 @@
 {
-  "version": "2026-11-05T24-turnreset",
-  "note": "群聊：碳基发言即清零 agent 轮次，避免 6 轮后永久静默",
-  "build": "2026-11-05T09:06:53.949Z",
+  "version": "2026-11-05T25-quiet",
+  "note": "闲聊不再生成任务树/不再弹拍板；没模型时不再复述用户原话",
+  "build": "2026-11-05T09:16:09.433Z",
   "files": [
     {
       "file": "server/server.js",
@@ -12,8 +12,8 @@
     {
       "file": "server/modules/cell/engine.js",
       "obj": "server__modules_cell_engine.js.gz",
-      "sha": "66efb88668a227b23228b3348806b71579bccd629c4033eb754eeda54135d80e",
-      "bytes": 39073
+      "sha": "cc79421b0c6d92927bb5d4e580d6a5cfdb029186bf3938dbf5bb600f58eeb237",
+      "bytes": 40319
     },
     {
       "file": "web/cschat-cell.html",
