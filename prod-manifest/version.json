@@ -1,13 +1,13 @@
 {
-  "version": "2026-11-05T21-boot",
-  "note": "启动韧性：子系统初始化失败不拖死进程；自检暴露 boot_errors",
-  "build": "2026-11-05T06:26:31.900Z",
+  "version": "2026-11-05T22-chat",
+  "note": "自建 chat：直连 DeepSeek 官方 API，加密存 Key，流式回复，历史入库",
+  "build": "2026-11-05T06:46:18.659Z",
   "files": [
     {
       "file": "server/server.js",
       "obj": "server__server.js.gz",
-      "sha": "cb9c5bd49a088e4c0555c5a172974e97299880912ebd31173db4f2fb9da10e5b",
-      "bytes": 320125
+      "sha": "0093349967f663191a37494f7af6dbd04b402db4b4653685e8961e135007c9ba",
+      "bytes": 321293
     },
     {
       "file": "server/modules/cell/engine.js",
@@ -52,10 +52,16 @@
       "bytes": 1066
     },
     {
-      "file": "web/probe.json",
-      "obj": "web__probe.json.gz",
-      "sha": "f7983cda2a5d0e14c755b9085e53a532bda3cbf32ab2741d7e58f7d91670646a",
-      "bytes": 57
+      "file": "server/modules/chat/chat.js",
+      "obj": "server__modules_chat_chat.js.gz",
+      "sha": "79f1725e1aa4775be886fb4ef4402d549e38b696d45474ff033dabad767de8ff",
+      "bytes": 10521
+    },
+    {
+      "file": "web/chat.html",
+      "obj": "web__chat.html.gz",
+      "sha": "693194bf6f24ad8a79c3d9a555b9d4f4f6059a8e1808e9493558893297e35854",
+      "bytes": 10013
     }
   ]
 }
