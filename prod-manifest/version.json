@@ -1,6 +1,6 @@
 {
-  "version": "2026-11-05T13-tok-kwf",
-  "note": "设备令牌身份（+?token 换 cookie）",
+  "version": "2026-11-05T14-sse-ub4",
+  "note": "修 SSE 帧格式（页面 onmessage 收不到命名事件）+ 令牌身份",
   "files": [
     {
       "file": ".deploy/auto-update.sh",
@@ -11,8 +11,8 @@
     {
       "file": "server/server.js",
       "obj": "server__server.js.gz",
-      "sha": "a2745ea59de2fc6fb004f63ad47c898945b53d00474616e1a6c113d7e6012eba",
-      "bytes": 317204
+      "sha": "5661c2cc478a3d6b19062e66e179a2dd04113d81e49d491a9011e7ee38699bb8",
+      "bytes": 317429
     },
     {
       "file": "web/cschat-cell.html",
