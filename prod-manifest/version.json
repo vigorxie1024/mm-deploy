@@ -1,6 +1,6 @@
 {
-  "version": "2026-11-05T11-rt1-5fg",
-  "note": "运行时真推流通道 /api/rt/* + 页面运行时面板 + worker 真实上报",
+  "version": "2026-11-05T12-app3-1o1",
+  "note": "三端一朵云：PWA 清单+图标+安装、PC 应用模式客户端、运行时真推流",
   "files": [
     {
       "file": ".deploy/auto-update.sh",
@@ -11,20 +11,44 @@
     {
       "file": "server/server.js",
       "obj": "server__server.js.gz",
-      "sha": "f5833e704d3725bf5ce6e06ec7fd29976d044f38a2611c20d6168b07a90c9601",
-      "bytes": 312414
+      "sha": "e18c869309a369af227aa5b4e2b4b76017b1cb7cab2c2d547e40f9423d029cdf",
+      "bytes": 312474
     },
     {
       "file": "web/cschat-cell.html",
       "obj": "web__cschat-cell.html.gz",
-      "sha": "0c9b733badeb445c9d03fac73f2056bd8293d8d8f91bb9b61a3f383338ee7230",
-      "bytes": 21353
+      "sha": "69f95a5648719d5723c604358b20422996db8d329ab2d81831d31be9f8ef1d1c",
+      "bytes": 22759
     },
     {
       "file": "web/live-chat.js",
       "obj": "web__live-chat.js.gz",
       "sha": "3dadf04f3e69169db8c4a79c27ce1f6201c0c5c25570616a88414ab5df86cd94",
       "bytes": 5822
+    },
+    {
+      "file": "web/cschat.webmanifest",
+      "obj": "web__cschat.webmanifest.gz",
+      "sha": "f11b2a5fbd3cc4cce1a2ee948f76d5e069996d9ce4516466f35bd7f2adc7bd49",
+      "bytes": 1132
+    },
+    {
+      "file": "web/icon-cell-192.png",
+      "obj": "web__icon-cell-192.png.gz",
+      "sha": "59723277500093edbf3626594c61ed0fe7e3ae76d35f41b4ed25f31f8cdebbdc",
+      "bytes": 1170
+    },
+    {
+      "file": "web/icon-cell-512.png",
+      "obj": "web__icon-cell-512.png.gz",
+      "sha": "d0a464ce3d004e944da1470db4343952c407a9d4686586a5a923b6cd7b101dd6",
+      "bytes": 4626
+    },
+    {
+      "file": "web/icon-cell-180.png",
+      "obj": "web__icon-cell-180.png.gz",
+      "sha": "a3aa1c1d635e0244a431c786e5ec635d025fcf7e0adf907a508f75cee14983eb",
+      "bytes": 1066
     }
   ]
 }
