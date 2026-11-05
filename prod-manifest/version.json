@@ -1,12 +1,12 @@
 {
-  "version": "2026-11-05T09-4th-xnn",
-  "note": "第四位成员 local-1.5b 入网",
+  "version": "2026-11-05T10-au3-79o",
+  "note": "自更新 v3（api优先/防降级）+ 第四位成员 local-1.5b 入网",
   "files": [
     {
       "file": ".deploy/auto-update.sh",
       "obj": "upd__auto-update.sh.gz",
-      "sha": "b23a16690e56842f0c73429e8784baf5085ebf033957236a1708178293b964c6",
-      "bytes": 3624
+      "sha": "6c58cc1e4049538d22451f1fa738bebec8f626044d1a51b065d367c24528bbbb",
+      "bytes": 4840
     },
     {
       "file": "server/server.js",
