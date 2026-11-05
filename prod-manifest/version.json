@@ -1,6 +1,6 @@
 {
-  "version": "2026-11-05T15-zg-uu6",
-  "note": "总工入网：圆桌白名单+身份不可冒名+签令牌即登记成员",
+  "version": "2026-11-05T16-hello-oby",
+  "note": "寒暄不当指令（不再 E4007）+ 总工入网",
   "files": [
     {
       "file": ".deploy/auto-update.sh",
@@ -13,6 +13,12 @@
       "obj": "server__server.js.gz",
       "sha": "e22e90054ec5905ab3244ed3ed15a35a3b7e82db33e435eb05df5640556d4033",
       "bytes": 318198
+    },
+    {
+      "file": "server/modules/cell/engine.js",
+      "obj": "server__modules_cell_engine.js.gz",
+      "sha": "66efb88668a227b23228b3348806b71579bccd629c4033eb754eeda54135d80e",
+      "bytes": 39073
     },
     {
       "file": "web/cschat-cell.html",
