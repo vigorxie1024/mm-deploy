@@ -1,6 +1,6 @@
 {
-  "version": "2026-11-05T14-sse-ub4",
-  "note": "修 SSE 帧格式（页面 onmessage 收不到命名事件）+ 令牌身份",
+  "version": "2026-11-05T15-zg-uu6",
+  "note": "总工入网：圆桌白名单+身份不可冒名+签令牌即登记成员",
   "files": [
     {
       "file": ".deploy/auto-update.sh",
@@ -11,14 +11,14 @@
     {
       "file": "server/server.js",
       "obj": "server__server.js.gz",
-      "sha": "5661c2cc478a3d6b19062e66e179a2dd04113d81e49d491a9011e7ee38699bb8",
-      "bytes": 317429
+      "sha": "e22e90054ec5905ab3244ed3ed15a35a3b7e82db33e435eb05df5640556d4033",
+      "bytes": 318198
     },
     {
       "file": "web/cschat-cell.html",
       "obj": "web__cschat-cell.html.gz",
-      "sha": "69f95a5648719d5723c604358b20422996db8d329ab2d81831d31be9f8ef1d1c",
-      "bytes": 22759
+      "sha": "9c3b162ed07ef20410c4bf454a7176537fb6834ed16fdf29769f974ed672b360",
+      "bytes": 23427
     },
     {
       "file": "web/live-chat.js",
