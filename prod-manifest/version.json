@@ -1,6 +1,6 @@
 {
-  "version": "2026-11-04T22-ui-7ik",
-  "note": "圆桌发送失败可见 + 撤回接口",
+  "version": "2026-11-04T23-svc-lo2",
+  "note": "长期只读令牌 + UI 修复",
   "files": [
     {
       "file": ".deploy/auto-update.sh",
@@ -11,8 +11,8 @@
     {
       "file": "server/server.js",
       "obj": "server__server.js.gz",
-      "sha": "a2f1b55dcaf7d6d78c8e92e6037b7b9d5fa14204178ee5dfc735bb48b9bab9f5",
-      "bytes": 307905
+      "sha": "79d1f658df44fac676eeb0ecf25b68eef60b2b86dfe07171a20b8f869419e7f7",
+      "bytes": 308686
     },
     {
       "file": "web/cschat-cell.html",
