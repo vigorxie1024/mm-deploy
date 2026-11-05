@@ -1,6 +1,6 @@
 {
-  "version": "2026-11-05T10-au3-79o",
-  "note": "自更新 v3（api优先/防降级）+ 第四位成员 local-1.5b 入网",
+  "version": "2026-11-05T11-rt1-5fg",
+  "note": "运行时真推流通道 /api/rt/* + 页面运行时面板 + worker 真实上报",
   "files": [
     {
       "file": ".deploy/auto-update.sh",
@@ -11,14 +11,14 @@
     {
       "file": "server/server.js",
       "obj": "server__server.js.gz",
-      "sha": "921253af2bcb1e7bf8763a2fd657d09414dee0b3503bd036c350b4d022a401ea",
-      "bytes": 308966
+      "sha": "f5833e704d3725bf5ce6e06ec7fd29976d044f38a2611c20d6168b07a90c9601",
+      "bytes": 312414
     },
     {
       "file": "web/cschat-cell.html",
       "obj": "web__cschat-cell.html.gz",
-      "sha": "dde2df9b3464db91cabd0bb58bb7516031ec7af2657bcc3d1a793110483b6e21",
-      "bytes": 19008
+      "sha": "0c9b733badeb445c9d03fac73f2056bd8293d8d8f91bb9b61a3f383338ee7230",
+      "bytes": 21353
     },
     {
       "file": "web/live-chat.js",
