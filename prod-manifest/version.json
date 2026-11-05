@@ -1,6 +1,6 @@
 {
-  "version": "2026-11-05T17-ver-o3r",
-  "note": "加 /api/version 自检，排查线上路由 404",
+  "version": "2026-11-05T18-cschat-p1",
+  "note": "加 /api/version 自检，排查线上路由 404 + CSchat P0(群聊+统一意图信封) + 精神帖 + 喊话台桥接",
   "files": [
     {
       "file": ".deploy/auto-update.sh",
@@ -11,8 +11,8 @@
     {
       "file": "server/server.js",
       "obj": "server__server.js.gz",
-      "sha": "fe2a9f3af5510360616de215366759be9726d95ad7866bb38aed0a27c0ea1d0d",
-      "bytes": 318831
+      "sha": "e9619f597d253038f9b9b8b618e5b00df5e8263b5991e79a8fd3e6cec92071cf",
+      "bytes": 368974
     },
     {
       "file": "server/modules/cell/engine.js",
@@ -55,6 +55,24 @@
       "obj": "web__icon-cell-180.png.gz",
       "sha": "a3aa1c1d635e0244a431c786e5ec635d025fcf7e0adf907a508f75cee14983eb",
       "bytes": 1066
+    },
+    {
+      "file": "server/db.js",
+      "obj": "server__db.js.gz",
+      "sha": "b735fc0622f39528deb54e6028d6262c0f61bdfde8d75c9ebec63e5a496caff4",
+      "bytes": 57179
+    },
+    {
+      "file": "server/modules/cschat/index.js",
+      "obj": "server__modules__cschat__index.js.gz",
+      "sha": "ff4c65bed794a962a1a59eb2d2c9dbc538ea50d0aa762888efae7ec3e7bdd4f3",
+      "bytes": 11307
+    },
+    {
+      "file": "web/cschat.html",
+      "obj": "web__cschat.html.gz",
+      "sha": "eed9fb631c3db5565866221ea33b8e16fb8506064bcc96978b93ba85e2cbfe18",
+      "bytes": 14711
     }
   ]
 }
