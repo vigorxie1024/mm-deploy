@@ -1,13 +1,13 @@
 {
-  "version": "2026-11-05T22-chat",
-  "note": "自建 chat：直连 DeepSeek 官方 API，加密存 Key，流式回复，历史入库",
-  "build": "2026-11-05T06:46:18.659Z",
+  "version": "2026-11-05T23-group",
+  "note": "群消息中枢 v0.0.2：@路由/防循环/turn_limit/记忆导出",
+  "build": "2026-11-05T06:53:05.611Z",
   "files": [
     {
       "file": "server/server.js",
       "obj": "server__server.js.gz",
-      "sha": "0093349967f663191a37494f7af6dbd04b402db4b4653685e8961e135007c9ba",
-      "bytes": 321293
+      "sha": "34f19ed7fde02f6908609cf67f37f2052dd94bd4030e6bab2477757755a18c5a",
+      "bytes": 321464
     },
     {
       "file": "server/modules/cell/engine.js",
@@ -62,6 +62,12 @@
       "obj": "web__chat.html.gz",
       "sha": "693194bf6f24ad8a79c3d9a555b9d4f4f6059a8e1808e9493558893297e35854",
       "bytes": 10013
+    },
+    {
+      "file": "server/modules/group/group.js",
+      "obj": "server__modules_group_group.js.gz",
+      "sha": "2b4151b2d15dfc7ac787eaf7ce92c68623c559e60de729170fd7790bdca9ef77",
+      "bytes": 13581
     }
   ]
 }
