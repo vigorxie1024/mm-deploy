@@ -1,13 +1,13 @@
 {
-  "version": "2026-11-05T20-ping",
-  "note": "探测部署是否生效 + 加入 zai139 身份位",
-  "build": "2026-11-05T05:43:39.093Z",
+  "version": "2026-11-05T21-boot",
+  "note": "启动韧性：子系统初始化失败不拖死进程；自检暴露 boot_errors",
+  "build": "2026-11-05T06:26:31.900Z",
   "files": [
     {
       "file": "server/server.js",
       "obj": "server__server.js.gz",
-      "sha": "36ca6669fafb8be12f779876c6a13a60d8b1b50d653aca0023fe956b754569f4",
-      "bytes": 319355
+      "sha": "cb9c5bd49a088e4c0555c5a172974e97299880912ebd31173db4f2fb9da10e5b",
+      "bytes": 320125
     },
     {
       "file": "server/modules/cell/engine.js",
