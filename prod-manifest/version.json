@@ -1,6 +1,6 @@
 {
-  "version": "2026-11-05T12-app3-1o1",
-  "note": "三端一朵云：PWA 清单+图标+安装、PC 应用模式客户端、运行时真推流",
+  "version": "2026-11-05T13-tok-kwf",
+  "note": "设备令牌身份（+?token 换 cookie）",
   "files": [
     {
       "file": ".deploy/auto-update.sh",
@@ -11,8 +11,8 @@
     {
       "file": "server/server.js",
       "obj": "server__server.js.gz",
-      "sha": "e18c869309a369af227aa5b4e2b4b76017b1cb7cab2c2d547e40f9423d029cdf",
-      "bytes": 312474
+      "sha": "a2745ea59de2fc6fb004f63ad47c898945b53d00474616e1a6c113d7e6012eba",
+      "bytes": 317204
     },
     {
       "file": "web/cschat-cell.html",
