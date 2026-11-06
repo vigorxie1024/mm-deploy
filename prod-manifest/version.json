@@ -1,13 +1,13 @@
 {
-  "version": "2026-11-05T25-quiet",
-  "note": "闲聊不再生成任务树/不再弹拍板；没模型时不再复述用户原话",
-  "build": "2026-11-05T09:16:09.433Z",
+  "version": "2026-11-06T26-cschat",
+  "note": "25-quiet 基线 + CSchat 路由/精神帖回归（server.js 补回 13 条 cschat 路由 + features 检测位），治本：cschat 纳入发布源，后续发布不再丢失",
+  "build": "2026-11-06T03:03:31.634Z",
   "files": [
     {
       "file": "server/server.js",
       "obj": "server__server.js.gz",
-      "sha": "34f19ed7fde02f6908609cf67f37f2052dd94bd4030e6bab2477757755a18c5a",
-      "bytes": 321464
+      "sha": "7a0eb45d4b9da7414eea1882e7b4707266704d9cf908fac17378d8dd450d4a0b",
+      "bytes": 327721
     },
     {
       "file": "server/modules/cell/engine.js",
@@ -68,6 +68,24 @@
       "obj": "server__modules_group_group.js.gz",
       "sha": "666bcd176a854e7078856bc5e047b9d36e34cb80bb9eeca3e8a034b3012f0cce",
       "bytes": 13850
+    },
+    {
+      "file": "server/db.js",
+      "obj": "server__db.js.gz",
+      "sha": "b735fc0622f39528deb54e6028d6262c0f61bdfde8d75c9ebec63e5a496caff4",
+      "bytes": 57179
+    },
+    {
+      "file": "server/modules/cschat/index.js",
+      "obj": "server__modules__cschat__index.js.gz",
+      "sha": "ff4c65bed794a962a1a59eb2d2c9dbc538ea50d0aa762888efae7ec3e7bdd4f3",
+      "bytes": 11307
+    },
+    {
+      "file": "web/cschat.html",
+      "obj": "web__cschat.html.gz",
+      "sha": "eed9fb631c3db5565866221ea33b8e16fb8506064bcc96978b93ba85e2cbfe18",
+      "bytes": 14711
     }
   ]
 }
