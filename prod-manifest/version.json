@@ -1,7 +1,7 @@
 {
-  "version": "2026-11-06T28-ident",
-  "note": "身份解析认 ma_pt 令牌 cookie；房间白名单换 139aina/vx_mobile",
-  "build": "2026-11-06T03:38:01.344Z",
+  "version": "2026-11-06T29-aina",
+  "note": "aina 用「接模型」存下的 Key：圆桌里能真回答，不再复读",
+  "build": "2026-11-06T03:55:40.752Z",
   "files": [
     {
       "file": "server/server.js",
@@ -12,8 +12,8 @@
     {
       "file": "server/modules/cell/engine.js",
       "obj": "server__modules_cell_engine.js.gz",
-      "sha": "cc79421b0c6d92927bb5d4e580d6a5cfdb029186bf3938dbf5bb600f58eeb237",
-      "bytes": 40319
+      "sha": "a67a95dc13d3b3a4e451f6974b84ccd0033b3f7a931daa6f66bee9c070a963c1",
+      "bytes": 41051
     },
     {
       "file": "web/cschat-cell.html",
@@ -54,8 +54,8 @@
     {
       "file": "server/modules/chat/chat.js",
       "obj": "server__modules_chat_chat.js.gz",
-      "sha": "1b3bb0daade574f03d25be66a0387e82d5f4e0a832d70bae910724620a5a1404",
-      "bytes": 12291
+      "sha": "70f5ac09d310d8882f5a3cd11437d0bed6baddde6f5e01ce764356059e6e4824",
+      "bytes": 12582
     },
     {
       "file": "web/chat.html",
