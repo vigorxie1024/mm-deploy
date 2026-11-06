@@ -1,13 +1,13 @@
 {
-  "version": "2026-11-06T29-aina",
-  "note": "aina 用「接模型」存下的 Key：圆桌里能真回答，不再复读",
-  "build": "2026-11-06T03:55:40.752Z",
+  "version": "2026-11-06T30-prompt",
+  "note": "圆桌提示词收紧：只回答最后一句，不许评论历史",
+  "build": "2026-11-06T04:09:29.161Z",
   "files": [
     {
       "file": "server/server.js",
       "obj": "server__server.js.gz",
-      "sha": "d9f2bf3f84d5b98a1ae876c7f87f03602c0c3182f0c5450f552b242517dace41",
-      "bytes": 322221
+      "sha": "58c49f36e3d2d2fecdbac539873dc0ea17e5593d5db727b042632ba85c1f70f9",
+      "bytes": 322937
     },
     {
       "file": "server/modules/cell/engine.js",
