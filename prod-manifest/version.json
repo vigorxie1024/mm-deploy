@@ -1,13 +1,13 @@
 {
-  "version": "2026-11-06T27-keycheck",
-  "note": "接模型先验证：ck_ 令牌/非 sk- 直接拒，401 明说原因，验不过不许说接通",
-  "build": "2026-11-06T03:33:03.309Z",
+  "version": "2026-11-06T28-ident",
+  "note": "身份解析认 ma_pt 令牌 cookie；房间白名单换 139aina/vx_mobile",
+  "build": "2026-11-06T03:38:01.344Z",
   "files": [
     {
       "file": "server/server.js",
       "obj": "server__server.js.gz",
-      "sha": "34f19ed7fde02f6908609cf67f37f2052dd94bd4030e6bab2477757755a18c5a",
-      "bytes": 321464
+      "sha": "d9f2bf3f84d5b98a1ae876c7f87f03602c0c3182f0c5450f552b242517dace41",
+      "bytes": 322221
     },
     {
       "file": "server/modules/cell/engine.js",
