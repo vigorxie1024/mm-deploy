@@ -1,7 +1,7 @@
 {
-  "version": "2026-11-06T26-noecho",
-  "note": "群收件箱剔除自己发的：根治 agent 被自己的 @ 反弹成复读机",
-  "build": "2026-11-06T03:10:38.773Z",
+  "version": "2026-11-06T27-keycheck",
+  "note": "接模型先验证：ck_ 令牌/非 sk- 直接拒，401 明说原因，验不过不许说接通",
+  "build": "2026-11-06T03:33:03.309Z",
   "files": [
     {
       "file": "server/server.js",
@@ -54,8 +54,8 @@
     {
       "file": "server/modules/chat/chat.js",
       "obj": "server__modules_chat_chat.js.gz",
-      "sha": "79f1725e1aa4775be886fb4ef4402d549e38b696d45474ff033dabad767de8ff",
-      "bytes": 10521
+      "sha": "1b3bb0daade574f03d25be66a0387e82d5f4e0a832d70bae910724620a5a1404",
+      "bytes": 12291
     },
     {
       "file": "web/chat.html",
