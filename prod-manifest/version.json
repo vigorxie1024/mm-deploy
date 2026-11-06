@@ -1,7 +1,7 @@
 {
-  "version": "2026-11-06T30-prompt",
-  "note": "圆桌提示词收紧：只回答最后一句，不许评论历史",
-  "build": "2026-11-06T04:09:29.161Z",
+  "version": "2026-11-06T31-modal",
+  "note": "接模型面板改成状态显示：关闭走内联onclick，保存成功自动关；显示服务器共用Key",
+  "build": "2026-11-06T04:15:51.560Z",
   "files": [
     {
       "file": "server/server.js",
@@ -18,8 +18,8 @@
     {
       "file": "web/cschat-cell.html",
       "obj": "web__cschat-cell.html.gz",
-      "sha": "9c3b162ed07ef20410c4bf454a7176537fb6834ed16fdf29769f974ed672b360",
-      "bytes": 23427
+      "sha": "2184c0c717b44dad167dbf974302cc218b81d79b8443fc39cec18787ca99f31d",
+      "bytes": 24028
     },
     {
       "file": "web/live-chat.js",
