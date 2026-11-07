@@ -1,6 +1,6 @@
 {
-    "version": "2026-11-07T35-cell-autorun",
-    "note": "engine: add server-side auto-runner (CELL_AUTO_RUN) so task tree self-executes without external agents — crawler fetch + analyst/writer model output; needed for live demo when 3 worker PCs are offline",
+    "version": "2026-11-07T36-clean-sse",
+    "note": "html: SSE connects with current seq (no history replay) so demo opens to a clean live feed; engine T35 auto-runner unchanged",
     "build": "2026-11-07T03:09:49.1426285Z",
     "files": [
         {
@@ -18,8 +18,8 @@
         {
             "file": "web/cschat-cell.html",
             "obj": "web__cschat-cell.html.gz",
-            "sha": "6576ee80769da2e161dd5ad39ae56dbe04aef8679aa5c2ab8fa324c8b5ed8319",
-            "bytes": 28294
+            "sha": "ad3658b1f1b19e1dc68624a697b65d485e532ab5570b4da71dfa78a4a4c20697",
+            "bytes": 28616
         },
         {
             "file": "web/live-chat.js",
