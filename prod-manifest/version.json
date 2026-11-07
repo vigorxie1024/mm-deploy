@@ -1,6 +1,6 @@
 {
-    "version": "2026-11-07T38-member-persist",
-    "note": "engine: registerMember persists to cell_state; restore recovers members so agents survive restarts",
+    "version": "2026-11-07T39-member-persist-fix",
+    "note": "engine: fix restore members scope bug (let moved out of try); T38 hotfix now canonical",
     "build": "2026-11-07T03:09:49.1426285Z",
     "files": [
         {
@@ -12,8 +12,8 @@
         {
             "file": "server/modules/cell/engine.js",
             "obj": "server__modules_cell_engine.js.gz",
-            "sha": "b1504d5cf4bcd890c24d864570f98bbc0d85d8d768a7a76e7401c17993003598",
-            "bytes": 49352
+            "sha": "83ce954208fe67469358b3b453ab504da05ee5aaf76128db44c555b63f335773",
+            "bytes": 49342
         },
         {
             "file": "web/cschat-cell.html",
