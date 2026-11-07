@@ -1,6 +1,6 @@
 {
-    "version": "2026-11-07T37-agent-chat",
-    "note": "engine: msg() accepts chat.agent so registered silicon members can speak in the cell chat (multi-agent social demo)",
+    "version": "2026-11-07T38-member-persist",
+    "note": "engine: registerMember persists to cell_state; restore recovers members so agents survive restarts",
     "build": "2026-11-07T03:09:49.1426285Z",
     "files": [
         {
@@ -12,8 +12,8 @@
         {
             "file": "server/modules/cell/engine.js",
             "obj": "server__modules_cell_engine.js.gz",
-            "sha": "0f7f21a79df16f0f073f5d1dcdc82c6ae847f134f5888bf9e85eb8a70c8e6a81",
-            "bytes": 48762
+            "sha": "b1504d5cf4bcd890c24d864570f98bbc0d85d8d768a7a76e7401c17993003598",
+            "bytes": 49352
         },
         {
             "file": "web/cschat-cell.html",
