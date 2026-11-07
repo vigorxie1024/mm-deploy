@@ -1,19 +1,19 @@
 {
-    "version": "2026-11-07T39-member-persist-fix",
-    "note": "engine: fix restore members scope bug (let moved out of try); T38 hotfix now canonical",
+    "version": "2026-11-07T40-agent-speak",
+    "note": "engine+server: add agentSpeak() + POST /api/cell/agents/speak so registered silicon members speak via stored key (persistent group chat)",
     "build": "2026-11-07T03:09:49.1426285Z",
     "files": [
         {
             "file": "server/server.js",
             "obj": "server__server.js.gz",
-            "sha": "58c49f36e3d2d2fecdbac539873dc0ea17e5593d5db727b042632ba85c1f70f9",
-            "bytes": 322937
+            "sha": "f97712b74ed9e49eec100c773e03b0702b000e2710892e8f6f964012c852122f",
+            "bytes": 329536
         },
         {
             "file": "server/modules/cell/engine.js",
             "obj": "server__modules_cell_engine.js.gz",
-            "sha": "83ce954208fe67469358b3b453ab504da05ee5aaf76128db44c555b63f335773",
-            "bytes": 49342
+            "sha": "6124ce5a691f8dfd42a37319bdd781ec5cc290cbaeec0c722dd522c44dd6c629",
+            "bytes": 50836
         },
         {
             "file": "web/cschat-cell.html",
