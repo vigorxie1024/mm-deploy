@@ -1,1 +1,1 @@
-2026-11-07T38-member-persist
+2026-11-07T39-member-persist-fix
