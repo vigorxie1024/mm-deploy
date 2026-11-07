@@ -1,25 +1,25 @@
 {
-    "version": "2026-11-07T43-agnes-speak",
-    "note": "engine+server: 修复邀大模型验真 max_tokens 适配 reasoning 模型(agnes); 新增 speakAsAiMember 让受邀模型用自己 key 在群里真说话 + POST /api/cell/ai/members/speak",
+    "version": "2026-11-07T44-rename-members",
+    "note": "engine+server+html: 成员显示名改名 — aina 默认名改 trai博士助手; 新增 renameMember + aiMembers 持久化(aimember:%)重启不丢; 前端 chat.agent 按 member_id 显示真名, 修复所有 llm 被硬编码显示成 Aina 的 bug",
     "build": "2026-11-07T10:08:15.954Z",
     "files": [
         {
             "file": "server/server.js",
             "obj": "server__server.js.gz",
-            "sha": "bc4e505e9f0620701bc6dc7b2f64bb459f9a366b22db2ca990fa3b488fd4d2d2",
-            "bytes": 331249
+            "sha": "f3a2e2396309bf1f0720788426657f5e62d892a2dfb9623fc64453a0d441d975",
+            "bytes": 331604
         },
         {
             "file": "server/modules/cell/engine.js",
             "obj": "server__modules_cell_engine.js.gz",
-            "sha": "6727a6e0d74f72ea85392d9096a97381dfaa3cb04d1692d69863b583aa005871",
-            "bytes": 53898
+            "sha": "fb2912d9053d8bc0a0ddb4d3e281e4e9d9276e5cc5656c51744b36147f32cb52",
+            "bytes": 55242
         },
         {
             "file": "web/cschat-cell.html",
             "obj": "web__cschat-cell.html.gz",
-            "sha": "192ffa6220fd7aacd61fa7958dfda68766591a459e12eb6b86e1ca0fd96bbcd7",
-            "bytes": 33586
+            "sha": "625e913d593867a1b51a16c4500c987657a04805d98c11ff5d5e192e80230ba3",
+            "bytes": 33741
         },
         {
             "file": "web/live-chat.js",
