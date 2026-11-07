@@ -1,7 +1,7 @@
 {
-  "version": "2026-11-06T32-cellpage",
-  "note": "群聊页加登录态告警+构建版本对账：空壳不再静默",
-  "build": "2026-11-07T00:45:40.949Z",
+  "version": "2026-11-06T33-testbtn",
+  "note": "接模型面板：删掉带残缺属性的旧输入框，改为「测试模型连通」真按钮",
+  "build": "2026-11-07T00:50:49.540Z",
   "files": [
     {
       "file": "server/server.js",
@@ -18,8 +18,8 @@
     {
       "file": "web/cschat-cell.html",
       "obj": "web__cschat-cell.html.gz",
-      "sha": "49bbdb07a78df06f3836bcd0de315dc7983153bd85196bfe76344870c8506bea",
-      "bytes": 25878
+      "sha": "49f59b59bcf187060d6784dfb03906fabe9d5d819b9a1c9604348f79007f2b1d",
+      "bytes": 26296
     },
     {
       "file": "web/live-chat.js",
