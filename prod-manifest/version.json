@@ -1,6 +1,6 @@
 {
-    "version": "2026-11-07T36-clean-sse",
-    "note": "html: SSE connects with current seq (no history replay) so demo opens to a clean live feed; engine T35 auto-runner unchanged",
+    "version": "2026-11-07T37-agent-chat",
+    "note": "engine: msg() accepts chat.agent so registered silicon members can speak in the cell chat (multi-agent social demo)",
     "build": "2026-11-07T03:09:49.1426285Z",
     "files": [
         {
@@ -12,8 +12,8 @@
         {
             "file": "server/modules/cell/engine.js",
             "obj": "server__modules_cell_engine.js.gz",
-            "sha": "c80032db58d1193786bbc627fde7a45f15ecf3bad9ba8d419ddb56b9119706b4",
-            "bytes": 48138
+            "sha": "0f7f21a79df16f0f073f5d1dcdc82c6ae847f134f5888bf9e85eb8a70c8e6a81",
+            "bytes": 48762
         },
         {
             "file": "web/cschat-cell.html",
