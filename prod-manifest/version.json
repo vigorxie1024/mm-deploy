@@ -1,14 +1,14 @@
 {
-    "version": "2026-11-09T65-live",
-    "note": "T65 微信端体验打磨（接续 T64）：把轮询兜底从 7 秒收紧到 5 秒，并在发完消息后 1 秒、3.5 秒各主动补拉一次快照——正好抓住常驻 bot 错开在 ~2.2s（总工）、~5s（大模型）的接话，让手机微信里的对话显得跟手，不会\"发完傻等\"。只改 web/cschat-cell.html。",
+    "version": "2026-11-09T66-dedup",
+    "note": "T66 乐观渲染去重加固：身份(whoami)尚未加载完就快速发送时，本地占位 from 用兜底 vx，与真实消息 from 不一致导致去重不命中、留下重影。现对兜底 vx 占位按文本匹配撤除。只改 web/cschat-cell.html。",
     "approved_by": "asus",
-    "build": "2026-11-08T12:07:28.738327+00:00",
+    "build": "2026-11-08T12:12:07.310021+00:00",
     "files": [
         {
             "file": "web/cschat-cell.html",
             "obj": "web__cschat-cell.html.gz",
-            "sha": "d2c83ff4e316f617a8f4de56d8b88452470ca3231c8887c2eaac7a09cefaa836",
-            "bytes": 37114
+            "sha": "62d9e123310effa506e6e2f48f534ebe38794cfe1274cb6c21771f3971f32175",
+            "bytes": 37256
         }
     ]
 }
