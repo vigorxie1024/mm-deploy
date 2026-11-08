@@ -1,13 +1,31 @@
 {
-  "version": "2026-11-09T01-probe",
-  "note": "探测：验证自动更新是否还活着",
+  "version": "2026-11-09T03-zh3",
+  "note": "批次1：第63-65章中文 + 第49章完整版",
   "approved_by": "asus",
   "files": [
     {
-      "file": "web/probe2.json",
-      "obj": "web__probe2.json.gz",
-      "sha": "e84067cfd7cb991f0bb516560a888c9d5fbd49746b2a865773070d407a363116",
-      "bytes": 52
+      "file": "web/chapters/第63章_高速预警报警手机AI智能体002.md",
+      "obj": "sub__0.gz",
+      "sha": "b78a46cb43b1e34fcc55b36119df93252469d041fa3214155f0f5115370f5f7c",
+      "bytes": 300772
+    },
+    {
+      "file": "web/chapters/第64章_fida产品v0.1681_004.md",
+      "obj": "sub__1.gz",
+      "sha": "5ba7be35d7a48ee8f62b024f192aa0b748a4dbc636b9139c8d35a9c4cdd38ac6",
+      "bytes": 749259
+    },
+    {
+      "file": "web/chapters/第65章_大成都装修智能体集群平台V0.1681.md",
+      "obj": "sub__2.gz",
+      "sha": "a4fbd2df0a85d5e37a90a09a1ae8087416a212270e5563cde3f02ec9e31b36c4",
+      "bytes": 225738
+    },
+    {
+      "file": "web/chapters/49章澳门葡萄牙增强版AI智能体集群2026年8月1日.md",
+      "obj": "sub__3.gz",
+      "sha": "c6f6e4a7f8a8588082ffad156fa3d49969741933318cd852821b1f238ea7871f",
+      "bytes": 306730
     }
   ]
 }
