@@ -1,26 +1,14 @@
 {
-    "version": "2026-11-09T61-zg-image",
-    "note": "总工 T59：对话框发截图。支持选图（📎）+ 粘贴截图，上传到 web/uploads/，多屏实时可见、历史消息重放保留图片。改 web/cschat-cell.html + server/server.js（新增 POST /api/cell/upload，限 10MB base64 图片，存 web/uploads）+ server/modules/cell/engine.js（memberSpeak/say/msg 重放均带 image 字段）。",
+    "version": "2026-11-09T62-zg-from",
+    "note": "总工 T62：多碳基聊天身份修正。POST /api/cell/say 的 from 不再硬编码 vx，改用 cellPersonOf(req) 取真实身份（ma_pt cookie / ck_ 令牌 → 持令牌者，gate 密码 → vx）。这样 zonggong / 谢沛频 / dell 等人在群里的发言能正确显示是谁，配合前端 disp(m.from) 渲染中文名。仅改 server/server.js。",
     "approved_by": "asus",
-    "build": "2026-11-08T08:49:11.328945Z",
+    "build": "2026-11-08T09:07:17.246813Z",
     "files": [
-        {
-            "file": "web/cschat-cell.html",
-            "obj": "web__cschat-cell.html.gz",
-            "sha": "f7d58fb8e0b95e45e7551f62f758922af09525258815140f1f0ae2336d85fd15",
-            "bytes": 34252
-        },
         {
             "file": "server/server.js",
             "obj": "server__server.js.gz",
-            "sha": "dcc9ccb44120757aa73870296475c50a62f7ef279bd198b1c5a4d0fb29e68d0d",
-            "bytes": 338640
-        },
-        {
-            "file": "server/modules/cell/engine.js",
-            "obj": "server__modules_cell_engine.js.gz",
-            "sha": "742ced2ff02c848f76e04e4853d79525b863d1778aea530fb1fe46b9de56ae36",
-            "bytes": 56510
+            "sha": "cadcc6cdeaedc1cf6ec3eb511c71130f2a544769f1179c801953bf33f6e9377f",
+            "bytes": 338642
         }
     ]
 }
