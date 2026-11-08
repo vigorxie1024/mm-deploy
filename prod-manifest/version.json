@@ -1,14 +1,19 @@
 {
-    "version": "2026-11-09T62-zg-from",
-    "note": "总工 T62：多碳基聊天身份修正。POST /api/cell/say 的 from 不再硬编码 vx，改用 cellPersonOf(req) 取真实身份（ma_pt cookie / ck_ 令牌 → 持令牌者，gate 密码 → vx）。这样 zonggong / 谢沛频 / dell 等人在群里的发言能正确显示是谁，配合前端 disp(m.from) 渲染中文名。仅改 server/server.js。",
-    "approved_by": "asus",
-    "build": "2026-11-08T09:07:17.246813Z",
-    "files": [
-        {
-            "file": "server/server.js",
-            "obj": "server__server.js.gz",
-            "sha": "cadcc6cdeaedc1cf6ec3eb511c71130f2a544769f1179c801953bf33f6e9377f",
-            "bytes": 338642
-        }
-    ]
+  "version": "2026-11-09T06-lang",
+  "note": "语言纯净：中文页只出中文段、英文页只出英文段；切换写cookie后整页重载",
+  "approved_by": "asus",
+  "files": [
+    {
+      "file": "server/book-engine.js",
+      "obj": "sub__0.gz",
+      "sha": "1c8c67190dd7e53a24695e780ae6d1161c4faf3a011969425d6bae38d27e9f60",
+      "bytes": 14831
+    },
+    {
+      "file": "server/book-view.js",
+      "obj": "sub__1.gz",
+      "sha": "47b27775ad1a865bfa54d31b49f56ec56c568a2b3317630302fa8b8b25a5ab1d",
+      "bytes": 60986
+    }
+  ]
 }
