@@ -1,14 +1,14 @@
 {
-    "version": "2026-11-09T64-wechat-poll",
-    "note": "T64 微信浏览器\"发出了界面没反应\"修复：微信内置浏览器会掐断 SSE（日志 499），导致消息推不到界面。改 web/cschat-cell.html 单点：① 乐观渲染——点发送立即把自己的话画到界面，不等推送；② 轮询兜底——每 7 秒拉一次 /api/cell/snapshot，SSE 死了也能在 7 秒内收到回话；③ 发完消息 1 秒主动补拉一次，AI 回话更快出来；④ 真实消息到达自动撤掉本地乐观占位，按 msg_id 去重不重复显示。",
+    "version": "2026-11-09T65-live",
+    "note": "T65 微信端体验打磨（接续 T64）：把轮询兜底从 7 秒收紧到 5 秒，并在发完消息后 1 秒、3.5 秒各主动补拉一次快照——正好抓住常驻 bot 错开在 ~2.2s（总工）、~5s（大模型）的接话，让手机微信里的对话显得跟手，不会\"发完傻等\"。只改 web/cschat-cell.html。",
     "approved_by": "asus",
-    "build": "2026-11-08T11:56:07.525599Z",
+    "build": "2026-11-08T12:07:28.738327+00:00",
     "files": [
         {
             "file": "web/cschat-cell.html",
             "obj": "web__cschat-cell.html.gz",
-            "sha": "8fc186cd567aacbb9e41ab0fffffb45af8c1fe3646bdd1ebc469855c5ee5947c",
-            "bytes": 37052
+            "sha": "d2c83ff4e316f617a8f4de56d8b88452470ca3231c8887c2eaac7a09cefaa836",
+            "bytes": 37114
         }
     ]
 }
