@@ -1,8 +1,8 @@
 {
-  "version": "2026-11-08T58-hsr",
-  "note": "HSR 理论第42-65章（24章/325万字）上线：docx转markdown，表格转标准表",
+  "version": "2026-11-08T59-hsr2",
+  "note": "HSR：第49章升级为完整版（0.7万→7.9万字）、新增第63-65章",
   "approved_by": "asus",
-  "build": "2026-11-08T07:31:34.969Z",
+  "build": "2026-11-08T07:39:24.290Z",
   "files": [
     {
       "file": "server/server.js",
@@ -83,132 +83,6 @@
       "bytes": 5443
     },
     {
-      "file": "web/chapters/第42章_VX劳动交易平台.md",
-      "obj": "web__chapters__c42.gz",
-      "sha": "c1b42719f260314ba4f12d8f9e8f82a7b05917f9beb2cd1775c112d6438ef4d3",
-      "bytes": 449250
-    },
-    {
-      "file": "web/chapters/第43章_《劳动交易020AI智能体平台》.md",
-      "obj": "web__chapters__c43.gz",
-      "sha": "89846f476c9940a189ca8f8ae60b7ee8bb4e8a556627c4d8f1195c25ff54fcdc",
-      "bytes": 730606
-    },
-    {
-      "file": "web/chapters/第44章_以和止战俄乌特别军事行动VX_AI智能体8月7日.md",
-      "obj": "web__chapters__c44.gz",
-      "sha": "5afd91b35036a5083892232a754072cc1bad939ffce03bd84b5f3ddfd94aa5e5",
-      "bytes": 1894628
-    },
-    {
-      "file": "web/chapters/第45章_中以HSR带来中东和平.md",
-      "obj": "web__chapters__c45.gz",
-      "sha": "423627d992287245a9c2aa5abe2b7699fdc551e7fa41028b2a8458a5dd52fa19",
-      "bytes": 114667
-    },
-    {
-      "file": "web/chapters/第46章_以色列_中国西北5省区土地HSR.md",
-      "obj": "web__chapters__c46.gz",
-      "sha": "7a939c5767a56ba0f0b93e20faf4362585eea900ed6a242a8bd7899014cee705",
-      "bytes": 100066
-    },
-    {
-      "file": "web/chapters/第47章_战争和平后遗症HSR天眼.md",
-      "obj": "web__chapters__c47.gz",
-      "sha": "eb1cc2a0a268a04ba8d858b2b04e6b27c2d7be7b5ba0b0598c11997844745b31",
-      "bytes": 918900
-    },
-    {
-      "file": "web/chapters/第48章_香港4地5方HSR开发应用理论专题.md",
-      "obj": "web__chapters__c48.gz",
-      "sha": "a56de3b6512e8100154061408d1389654b268123d7b45e68a18f75995f2a29f6",
-      "bytes": 123802
-    },
-    {
-      "file": "web/chapters/第49章_澳粤_葡萄牙AI智能体集群260801.md",
-      "obj": "web__chapters__c49.gz",
-      "sha": "c6f6e4a7f8a8588082ffad156fa3d49969741933318cd852821b1f238ea7871f",
-      "bytes": 306730
-    },
-    {
-      "file": "web/chapters/第50章_碳硅基劳动资源开发服务网络平台.md",
-      "obj": "web__chapters__c50.gz",
-      "sha": "93068ffe6d57f7de767137dc5e272d7358f932a4ce0a3b025f6800b6088f1f02",
-      "bytes": 499005
-    },
-    {
-      "file": "web/chapters/第51章_碳硅基劳动资源开发白皮书26年8月18日.md",
-      "obj": "web__chapters__c51.gz",
-      "sha": "d7b6e3c562186d569758764da8694d6eb3c46a13e179a666cb44584a2c61ae4b",
-      "bytes": 241010
-    },
-    {
-      "file": "web/chapters/第52章_碳硅基劳动资源开发服务公约26年8月22日.md",
-      "obj": "web__chapters__c52.gz",
-      "sha": "969bbd9810274821219aa460a1b346cb27748a2855243154bc70bf16ca434e66",
-      "bytes": 11305
-    },
-    {
-      "file": "web/chapters/第53章_碳硅基劳动资源开发服务自洽闭环平台MVP0.618.md",
-      "obj": "web__chapters__c53.gz",
-      "sha": "e0f6a85a11cd66be9d87f0d18c61caeaffa60a2000de84c1782b9b8c7cd4e62b",
-      "bytes": 7852
-    },
-    {
-      "file": "web/chapters/第54章_超级劳动力分段养育共创数学模型26年8月20日.md",
-      "obj": "web__chapters__c54.gz",
-      "sha": "ffafb31e020cda32fa26ff8922e41e758b033eb3b5fe7ba5ad0fb4f037a2124c",
-      "bytes": 151233
-    },
-    {
-      "file": "web/chapters/第55章_AI智能体劳动财富新论090200512a.md",
-      "obj": "web__chapters__c55.gz",
-      "sha": "808e67b74f59c9d7e85507298ff2d13dc6ad2917007dccca0e264f5bfdd455e7",
-      "bytes": 865823
-    },
-    {
-      "file": "web/chapters/第56章_中国陆地边境带AI智能体-碳基联合体系.md",
-      "obj": "web__chapters__c56.gz",
-      "sha": "edfb25c5d21e438a41ce6d3389f16653d51066f07ac191ceb84a07fa011b250c",
-      "bytes": 87822
-    },
-    {
-      "file": "web/chapters/第57章_七方共治AI劳动资源理论应用专题26年9月4日01618f.md",
-      "obj": "web__chapters__c57.gz",
-      "sha": "0d937d506f803582b79b2ac331824632a71c31886aa87a4ebf9a6b76d2ff570a",
-      "bytes": 704252
-    },
-    {
-      "file": "web/chapters/第58章_sHRmatch含义乌专题817_00314b.md",
-      "obj": "web__chapters__c58.gz",
-      "sha": "312a7739bb9a65559a9062d0384cfd19ff29f1a9a44dd5a0c8e90808b201470c",
-      "bytes": 1568641
-    },
-    {
-      "file": "web/chapters/第59章_《中国足球世界杯冠军思想实验》6330_007.md",
-      "obj": "web__chapters__c59.gz",
-      "sha": "16cc58e5844d28dffcc7ed7ca3bcd95d59cfd1dcb207af772bd90268bd384b8e",
-      "bytes": 664620
-    },
-    {
-      "file": "web/chapters/第60章_超级劳动资源开发档案频道26年8月7日007.md",
-      "obj": "web__chapters__c60.gz",
-      "sha": "c17420e982d7841e074846d47b8f917fbfa9d2349c9502d82122b3e586ee1ee4",
-      "bytes": 443661
-    },
-    {
-      "file": "web/chapters/第61章_AI超级档案智能体系统007.md",
-      "obj": "web__chapters__c61.gz",
-      "sha": "81ee86d4265a7fef74de1f84338735527ef5d0d0415f09317ec8a88ffc874df0",
-      "bytes": 344455
-    },
-    {
-      "file": "web/chapters/第62章_《量化投资直播自治AI白皮书》f.md",
-      "obj": "web__chapters__c62.gz",
-      "sha": "097be64886df03b636891d8b97a98c41a4c9ab2c63570a6cff20670c7b3a1b4f",
-      "bytes": 957404
-    },
-    {
       "file": "web/chapters/第63章_高速预警报警手机AI智能体002.md",
       "obj": "web__chapters__c63.gz",
       "sha": "b78a46cb43b1e34fcc55b36119df93252469d041fa3214155f0f5115370f5f7c",
@@ -225,6 +99,12 @@
       "obj": "web__chapters__c65.gz",
       "sha": "a4fbd2df0a85d5e37a90a09a1ae8087416a212270e5563cde3f02ec9e31b36c4",
       "bytes": 225738
+    },
+    {
+      "file": "web/chapters/49章澳门葡萄牙增强版AI智能体集群2026年8月1日.md",
+      "obj": "web__chapters__c49.gz",
+      "sha": "c6f6e4a7f8a8588082ffad156fa3d49969741933318cd852821b1f238ea7871f",
+      "bytes": 306730
     }
   ]
 }
