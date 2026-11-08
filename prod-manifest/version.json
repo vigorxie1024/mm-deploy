@@ -1,31 +1,133 @@
 {
-  "version": "2026-11-09T03-zh3",
-  "note": "批次1：第63-65章中文 + 第49章完整版",
+  "version": "2026-11-09T04-enA",
+  "note": "英文版批次A：ch00-ch20",
   "approved_by": "asus",
   "files": [
     {
-      "file": "web/chapters/第63章_高速预警报警手机AI智能体002.md",
+      "file": "web/chapters/en/ch00_EN.md",
       "obj": "sub__0.gz",
-      "sha": "b78a46cb43b1e34fcc55b36119df93252469d041fa3214155f0f5115370f5f7c",
-      "bytes": 300772
+      "sha": "e6fd54ab2001c395822ff8b241dd783263168b0149996e6f05418dec577dad52",
+      "bytes": 394360
     },
     {
-      "file": "web/chapters/第64章_fida产品v0.1681_004.md",
+      "file": "web/chapters/en/ch01_EN.md",
       "obj": "sub__1.gz",
-      "sha": "5ba7be35d7a48ee8f62b024f192aa0b748a4dbc636b9139c8d35a9c4cdd38ac6",
-      "bytes": 749259
+      "sha": "39b50f2c9664b950e2985cc15f4ad36d86dccec539ea65cbf7a59876028cbeeb",
+      "bytes": 81781
     },
     {
-      "file": "web/chapters/第65章_大成都装修智能体集群平台V0.1681.md",
+      "file": "web/chapters/en/ch02_EN.md",
       "obj": "sub__2.gz",
-      "sha": "a4fbd2df0a85d5e37a90a09a1ae8087416a212270e5563cde3f02ec9e31b36c4",
-      "bytes": 225738
+      "sha": "316ecd0df4d3fb9552d4ce6b930ee5abe44ee6e3291570fa0d92ee0be354e8dd",
+      "bytes": 92307
     },
     {
-      "file": "web/chapters/49章澳门葡萄牙增强版AI智能体集群2026年8月1日.md",
+      "file": "web/chapters/en/ch03_EN.md",
       "obj": "sub__3.gz",
-      "sha": "c6f6e4a7f8a8588082ffad156fa3d49969741933318cd852821b1f238ea7871f",
-      "bytes": 306730
+      "sha": "402e8fcd31221c95882203736a930c78988acf6c476e724b20740c73698da646",
+      "bytes": 96569
+    },
+    {
+      "file": "web/chapters/en/ch04_EN.md",
+      "obj": "sub__4.gz",
+      "sha": "d976fd4bab8ae561d4b0d53021ec615262acb62635dcc6dc31eb3c8785d07d5c",
+      "bytes": 148189
+    },
+    {
+      "file": "web/chapters/en/ch05_EN.md",
+      "obj": "sub__5.gz",
+      "sha": "41422877c637da3c05edecd6689925c460cb4f8af266d9f457c823a63bf7f5b2",
+      "bytes": 65631
+    },
+    {
+      "file": "web/chapters/en/ch06_EN.md",
+      "obj": "sub__6.gz",
+      "sha": "03f7f6075e55b9a69e28982f76ffbc2091af2e1c8d49a0c1d01da8c53acadfa2",
+      "bytes": 43357
+    },
+    {
+      "file": "web/chapters/en/ch07_EN.md",
+      "obj": "sub__7.gz",
+      "sha": "1919edd4fa5e12fa68558ebce24efa30c3d82c0fb479a66e1b190e86e4d54a3b",
+      "bytes": 42104
+    },
+    {
+      "file": "web/chapters/en/ch08_EN.md",
+      "obj": "sub__8.gz",
+      "sha": "aabef7ae866052993f9bae89debdadbe130609d5096167f7f0178a64b7b97ff2",
+      "bytes": 19428
+    },
+    {
+      "file": "web/chapters/en/ch09_EN.md",
+      "obj": "sub__9.gz",
+      "sha": "428bff1c5a24233f13497d4abf365ae69768e4e5b19061a60d30b6df8fe1a9c6",
+      "bytes": 21878
+    },
+    {
+      "file": "web/chapters/en/ch10_EN.md",
+      "obj": "sub__10.gz",
+      "sha": "66fa06d7a0c309938d739d1a9be6546438502c7ac347061beb7094c921679074",
+      "bytes": 108189
+    },
+    {
+      "file": "web/chapters/en/ch11_EN.md",
+      "obj": "sub__11.gz",
+      "sha": "d5f483597f33580e6feba8e2a595a1f17e1ae91684b2668791806e3c43453b71",
+      "bytes": 29528
+    },
+    {
+      "file": "web/chapters/en/ch12_EN.md",
+      "obj": "sub__12.gz",
+      "sha": "32b68fa739c37790aee00da434b267645a49928e77a12c74c98c6bc8e9f4fe68",
+      "bytes": 27496
+    },
+    {
+      "file": "web/chapters/en/ch13_EN.md",
+      "obj": "sub__13.gz",
+      "sha": "91186b406b30a274bb80e13ea18e96963a6e6e5c8ce16d24db20e4a8fb946bd4",
+      "bytes": 29341
+    },
+    {
+      "file": "web/chapters/en/ch14_EN.md",
+      "obj": "sub__14.gz",
+      "sha": "fe822886be1f38c8782ab86808be7bffddc673e475bd616059683c91ce804691",
+      "bytes": 22884
+    },
+    {
+      "file": "web/chapters/en/ch15_EN.md",
+      "obj": "sub__15.gz",
+      "sha": "54270e916765e8da9985e46e4bedf531b769e64ecbab1c6136ac3040fe13e35d",
+      "bytes": 26860
+    },
+    {
+      "file": "web/chapters/en/ch16_EN.md",
+      "obj": "sub__16.gz",
+      "sha": "952643226f24eebe585f475703f3bff52520a699fc187ef7399c6ea136a306ed",
+      "bytes": 68500
+    },
+    {
+      "file": "web/chapters/en/ch17_EN.md",
+      "obj": "sub__17.gz",
+      "sha": "55b7eed32e59ed04ab60e82fa074942db94b846e69d408c428ea41868f716571",
+      "bytes": 72884
+    },
+    {
+      "file": "web/chapters/en/ch18_EN.md",
+      "obj": "sub__18.gz",
+      "sha": "b26a2aa71b21aaa23f0786ff741e3b529d8660cbb467a9b49f8936478d02e2f9",
+      "bytes": 109545
+    },
+    {
+      "file": "web/chapters/en/ch19_EN.md",
+      "obj": "sub__19.gz",
+      "sha": "49059cd69e8d39c85cdb17f1f427ef3184a9acdb37d51c74eb71ab490ff7fb96",
+      "bytes": 92924
+    },
+    {
+      "file": "web/chapters/en/ch20_EN.md",
+      "obj": "sub__20.gz",
+      "sha": "f1a0efb3ffcee495e1d0ea9c99787fb4a9fa8087b50845868a62615c637221c0",
+      "bytes": 106431
     }
   ]
 }
