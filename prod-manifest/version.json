@@ -1,6 +1,6 @@
 {
-    "version": "2026-11-08T58-zg-fixnames",
-    "note": "总工修复：chat.agent 消息按 m.from 查成员列表显示真名（总工程师/asus 总监机/...），不再统一显示「🤖 硅基」。仅改 web/cschat-cell.html 渲染两行，server/engine/group 不动。approved_by 沿用 asus 门禁，待 asus 核对。",
+    "version": "2026-11-08T60-zg-bilingual",
+    "note": "总工：名称双语化。加 NAME 双语名表（id→{zh,en}，从 /api/cell/members 动态合并）+ disp() 解析 + 「中文/双语/字母」三态切换器（存 localStorage）。让「谁在 / 聊天说话人 / 群成员面板 / 圆桌发言」四处共用同一套名字，切换时就地刷新已渲染 DOM（data-from 标记），不重放消息。仅改 web/cschat-cell.html。",
     "approved_by": "asus",
     "build": "2026-11-08T06:36:53.181Z",
     "files": [
@@ -19,8 +19,8 @@
         {
             "file": "web/cschat-cell.html",
             "obj": "web__cschat-cell.html.gz",
-            "sha": "afcea355c9284add554ee1301610b2a088e45e77e26b60624e4fac8f53edc2af",
-            "bytes": 27817
+            "sha": "17e31c1d91912fbbeb59b799fdf80a192c65d93dac6f079e289c96307934d6ee",
+            "bytes": 30966
         },
         {
             "file": "web/live-chat.js",
