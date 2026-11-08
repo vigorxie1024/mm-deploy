@@ -1,7 +1,8 @@
 {
-  "version": "2026-11-08T52-asus",
-  "note": "对齐版本：门禁实测通过后，以 asus 批准版恢复正轨",
-  "build": "2026-11-08T03:30:55.007Z",
+  "version": "2026-11-08T53-asus",
+  "note": "带批准人重发：approved_by=asus + 更新脚本纳入清单",
+  "approved_by": "asus",
+  "build": "2026-11-08T03:41:03.305Z",
   "files": [
     {
       "file": "server/server.js",
@@ -74,6 +75,12 @@
       "obj": "web__zonggong.html.gz",
       "sha": "e7b9a6607ef966c3113ca44ba7a5b0b48de952fdc79b8ee5b86ba2b2b46b9d50",
       "bytes": 6517
+    },
+    {
+      "file": ".deploy/auto-update.sh",
+      "obj": "upd__auto-update.sh.gz",
+      "sha": "e24c969f18bbf28c3d7a56d6d7c88d4a7ebd10e7fbebba1abfc9b55cae950fe7",
+      "bytes": 5443
     }
   ]
 }
