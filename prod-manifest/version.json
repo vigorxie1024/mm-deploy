@@ -1,7 +1,7 @@
 {
-  "version": "2026-11-08T48-gov",
-  "note": "发版门禁：清单须带 approved_by=asus（grep/sed 实现，不依赖 python）",
-  "build": "2026-11-08T03:23:45.760Z",
+  "version": "2026-11-08T50-who",
+  "note": "圆桌加「谁在」状态条：一眼看到总工有没有打开面板",
+  "build": "2026-11-08T03:25:25.716Z",
   "files": [
     {
       "file": "server/server.js",
@@ -18,8 +18,8 @@
     {
       "file": "web/cschat-cell.html",
       "obj": "web__cschat-cell.html.gz",
-      "sha": "49f59b59bcf187060d6784dfb03906fabe9d5d819b9a1c9604348f79007f2b1d",
-      "bytes": 26296
+      "sha": "85fbf58f13eff96e3715094cecbbac626704a99d663d907cfee41979616820ca",
+      "bytes": 27745
     },
     {
       "file": "web/live-chat.js",
