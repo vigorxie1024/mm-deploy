@@ -1,6 +1,6 @@
 {
-    "version": "2026-11-07T44-rename-members",
-    "note": "engine+server+html: 成员显示名改名 — aina 默认名改 trai博士助手; 新增 renameMember + aiMembers 持久化(aimember:%)重启不丢; 前端 chat.agent 按 member_id 显示真名, 修复所有 llm 被硬编码显示成 Aina 的 bug",
+    "version": "2026-11-08T45-btn-rename",
+    "note": "html 文案同步 T44 成员改名: 底部按钮「下发」→「发送」; 所有硬编码 Aina/aina 显示文字同步为 trai 博士助手(静音按钮/图例/圆桌/401提示/task标签); chat.agent 按 member_id 显示真名的兜底 llm 名改为「大模型」",
     "build": "2026-11-07T10:08:15.954Z",
     "files": [
         {
@@ -18,8 +18,8 @@
         {
             "file": "web/cschat-cell.html",
             "obj": "web__cschat-cell.html.gz",
-            "sha": "625e913d593867a1b51a16c4500c987657a04805d98c11ff5d5e192e80230ba3",
-            "bytes": 33741
+            "sha": "0b2c6a3a3f2f95258fafe2b0180abc2b01911b3a6834b665fa335a486d76e5b1",
+            "bytes": 33955
         },
         {
             "file": "web/live-chat.js",
