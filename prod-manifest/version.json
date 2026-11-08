@@ -1,8 +1,8 @@
 {
-  "version": "2026-11-08T56-restart",
-  "note": "触发一次完整更新循环：文件已落盘但服务未重启，需要重新走 install+restart",
+  "version": "2026-11-08T57-traecn",
+  "note": "群中枢兼容总工契约：POST /api/group/message 带 agent_id 即 agent 回群，他不用改代码",
   "approved_by": "asus",
-  "build": "2026-11-08T04:18:28.575Z",
+  "build": "2026-11-08T06:36:53.181Z",
   "files": [
     {
       "file": "server/server.js",
@@ -67,8 +67,8 @@
     {
       "file": "server/modules/group/group.js",
       "obj": "server__modules_group_group.js.gz",
-      "sha": "947bf4be3443f643ff9b1472e5f67ef373418cfa74b8453f66a2e4ee0e1f5fb1",
-      "bytes": 14012
+      "sha": "1229ce0fc983d436d23027de01655a6d2faa8e600ca049bfdaae19520e724eda",
+      "bytes": 15573
     },
     {
       "file": "web/zonggong.html",
