@@ -1,20 +1,14 @@
 {
-    "version": "2026-11-09T63-mobile-sse",
-    "note": "T63 手机端消息空白修复：① 前端初始先拉 /api/cell/snapshot 兜底，SSE 改用 since_seq=last 只续传新消息，避免 since_seq=0 全量突发触发 HTTP/2 错误；② 切回前台/聚焦时自动补拉快照并重连 SSE，手机锁屏断线不再丢消息；③ 引擎 SSE 响应头去掉违禁的 Connection: keep-alive（HTTP/2 下致 ERR_HTTP2_PROTOCOL_ERROR）。改 web/cschat-cell.html + server/modules/cell/engine.js。",
+    "version": "2026-11-09T64-wechat-poll",
+    "note": "T64 微信浏览器\"发出了界面没反应\"修复：微信内置浏览器会掐断 SSE（日志 499），导致消息推不到界面。改 web/cschat-cell.html 单点：① 乐观渲染——点发送立即把自己的话画到界面，不等推送；② 轮询兜底——每 7 秒拉一次 /api/cell/snapshot，SSE 死了也能在 7 秒内收到回话；③ 发完消息 1 秒主动补拉一次，AI 回话更快出来；④ 真实消息到达自动撤掉本地乐观占位，按 msg_id 去重不重复显示。",
     "approved_by": "asus",
-    "build": "2026-11-08T11:40:38.041004Z",
+    "build": "2026-11-08T11:56:07.525599Z",
     "files": [
         {
             "file": "web/cschat-cell.html",
             "obj": "web__cschat-cell.html.gz",
-            "sha": "9da1bace117c446d085a6b07f6800225cc46c5c10464c6144168864090a918a7",
-            "bytes": 35124
-        },
-        {
-            "file": "server/modules/cell/engine.js",
-            "obj": "server__modules__cell__engine.js.gz",
-            "sha": "ef6349b0a1ea92f63aaf66467eb025ea34de3b114ed85ad8ccf907a5dbb6df95",
-            "bytes": 56482
+            "sha": "8fc186cd567aacbb9e41ab0fffffb45af8c1fe3646bdd1ebc469855c5ee5947c",
+            "bytes": 37052
         }
     ]
 }
