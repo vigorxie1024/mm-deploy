@@ -1,6 +1,7 @@
 {
-  "version": "2026-11-08T51-decoy",
-  "note": "门禁测试：故意不带 approved_by",
+  "version": "2026-11-08T52-asus",
+  "note": "对齐版本：门禁实测通过后，以 asus 批准版恢复正轨",
+  "build": "2026-11-08T03:30:55.007Z",
   "files": [
     {
       "file": "server/server.js",
