@@ -1,20 +1,20 @@
 {
-  "version": "2026-11-08T53-asus",
-  "note": "带批准人重发：approved_by=asus + 更新脚本纳入清单",
+  "version": "2026-11-08T54-merge",
+  "note": "合并总工 T48：补回 cschat 房间/members speak/agents speak/ai members/静音暂停（以他的 server+engine 为超集）",
   "approved_by": "asus",
-  "build": "2026-11-08T03:41:03.305Z",
+  "build": "2026-11-08T04:08:51.081Z",
   "files": [
     {
       "file": "server/server.js",
       "obj": "server__server.js.gz",
-      "sha": "f6dba75edb5a913468193df1abb49f54251193d98379a876513276c444aaf104",
-      "bytes": 327734
+      "sha": "3a1a99a87a21d07a2dc95ba9a2a4b1be76f4e4f35cc31d810316c686ccc530f4",
+      "bytes": 336793
     },
     {
       "file": "server/modules/cell/engine.js",
       "obj": "server__modules_cell_engine.js.gz",
-      "sha": "a67a95dc13d3b3a4e451f6974b84ccd0033b3f7a931daa6f66bee9c070a963c1",
-      "bytes": 41051
+      "sha": "8c6f923b325c746c5dd8b43b2aea4f2d310ada6461e2516a48901812826c37c7",
+      "bytes": 56243
     },
     {
       "file": "web/cschat-cell.html",
