@@ -1,79 +1,79 @@
 {
-    "version": "2026-11-08T48-merge-zg-asus",
-    "note": "T48 合并版(总工): 以 asus T47 为底, 完整保留 asus 全部功能 (GBK 解码兼容 decodeBodyBuffer / presence 在场状态 / /api/who/online / 一键面板 /zg + zonggong.html / members sign-verify / room / cschat), 补回被 T47 覆盖的总工侧改动: engine 自动执行器 + muted/paused + memberSpeak/renameMember/agentSpeak/speakAsAiMember + 成员持久化 restore; server 路由 /api/cell/agents/speak / members/mute / members/rename / members/speak / ai/members(GET POST DELETE) / ai/members/speak; html 按钮「下发」→「发送」+ aina 显示名「trai 博士助手」+ 静音按钮。双方功能无损合并, 避免再互踩。",
-    "build": "2026-11-08T03:00:01.365Z",
-    "files": [
-        {
-            "file": "server/server.js",
-            "obj": "server__server.js.gz",
-            "sha": "3a1a99a87a21d07a2dc95ba9a2a4b1be76f4e4f35cc31d810316c686ccc530f4",
-            "bytes": 336793
-        },
-        {
-            "file": "server/modules/cell/engine.js",
-            "obj": "server__modules_cell_engine.js.gz",
-            "sha": "8c6f923b325c746c5dd8b43b2aea4f2d310ada6461e2516a48901812826c37c7",
-            "bytes": 56243
-        },
-        {
-            "file": "web/cschat-cell.html",
-            "obj": "web__cschat-cell.html.gz",
-            "sha": "0b2c6a3a3f2f95258fafe2b0180abc2b01911b3a6834b665fa335a486d76e5b1",
-            "bytes": 33955
-        },
-        {
-            "file": "web/live-chat.js",
-            "obj": "web__live-chat.js.gz",
-            "sha": "3dadf04f3e69169db8c4a79c27ce1f6201c0c5c25570616a88414ab5df86cd94",
-            "bytes": 5822
-        },
-        {
-            "file": "web/cschat.webmanifest",
-            "obj": "web__cschat.webmanifest.gz",
-            "sha": "f11b2a5fbd3cc4cce1a2ee948f76d5e069996d9ce4516466f35bd7f2adc7bd49",
-            "bytes": 1132
-        },
-        {
-            "file": "web/icon-cell-192.png",
-            "obj": "web__icon-cell-192.png.gz",
-            "sha": "59723277500093edbf3626594c61ed0fe7e3ae76d35f41b4ed25f31f8cdebbdc",
-            "bytes": 1170
-        },
-        {
-            "file": "web/icon-cell-512.png",
-            "obj": "web__icon-cell-512.png.gz",
-            "sha": "d0a464ce3d004e944da1470db4343952c407a9d4686586a5a923b6cd7b101dd6",
-            "bytes": 4626
-        },
-        {
-            "file": "web/icon-cell-180.png",
-            "obj": "web__icon-cell-180.png.gz",
-            "sha": "a3aa1c1d635e0244a431c786e5ec635d025fcf7e0adf907a508f75cee14983eb",
-            "bytes": 1066
-        },
-        {
-            "file": "server/modules/chat/chat.js",
-            "obj": "server__modules_chat_chat.js.gz",
-            "sha": "70f5ac09d310d8882f5a3cd11437d0bed6baddde6f5e01ce764356059e6e4824",
-            "bytes": 12582
-        },
-        {
-            "file": "web/chat.html",
-            "obj": "web__chat.html.gz",
-            "sha": "693194bf6f24ad8a79c3d9a555b9d4f4f6059a8e1808e9493558893297e35854",
-            "bytes": 10013
-        },
-        {
-            "file": "server/modules/group/group.js",
-            "obj": "server__modules_group_group.js.gz",
-            "sha": "947bf4be3443f643ff9b1472e5f67ef373418cfa74b8453f66a2e4ee0e1f5fb1",
-            "bytes": 14012
-        },
-        {
-            "file": "web/zonggong.html",
-            "obj": "web__zonggong.html.gz",
-            "sha": "e7b9a6607ef966c3113ca44ba7a5b0b48de952fdc79b8ee5b86ba2b2b46b9d50",
-            "bytes": 6517
-        }
-    ]
+  "version": "2026-11-08T48-gov",
+  "note": "发版门禁：清单须带 approved_by=asus（grep/sed 实现，不依赖 python）",
+  "build": "2026-11-08T03:23:45.760Z",
+  "files": [
+    {
+      "file": "server/server.js",
+      "obj": "server__server.js.gz",
+      "sha": "f6dba75edb5a913468193df1abb49f54251193d98379a876513276c444aaf104",
+      "bytes": 327734
+    },
+    {
+      "file": "server/modules/cell/engine.js",
+      "obj": "server__modules_cell_engine.js.gz",
+      "sha": "a67a95dc13d3b3a4e451f6974b84ccd0033b3f7a931daa6f66bee9c070a963c1",
+      "bytes": 41051
+    },
+    {
+      "file": "web/cschat-cell.html",
+      "obj": "web__cschat-cell.html.gz",
+      "sha": "49f59b59bcf187060d6784dfb03906fabe9d5d819b9a1c9604348f79007f2b1d",
+      "bytes": 26296
+    },
+    {
+      "file": "web/live-chat.js",
+      "obj": "web__live-chat.js.gz",
+      "sha": "3dadf04f3e69169db8c4a79c27ce1f6201c0c5c25570616a88414ab5df86cd94",
+      "bytes": 5822
+    },
+    {
+      "file": "web/cschat.webmanifest",
+      "obj": "web__cschat.webmanifest.gz",
+      "sha": "f11b2a5fbd3cc4cce1a2ee948f76d5e069996d9ce4516466f35bd7f2adc7bd49",
+      "bytes": 1132
+    },
+    {
+      "file": "web/icon-cell-192.png",
+      "obj": "web__icon-cell-192.png.gz",
+      "sha": "59723277500093edbf3626594c61ed0fe7e3ae76d35f41b4ed25f31f8cdebbdc",
+      "bytes": 1170
+    },
+    {
+      "file": "web/icon-cell-512.png",
+      "obj": "web__icon-cell-512.png.gz",
+      "sha": "d0a464ce3d004e944da1470db4343952c407a9d4686586a5a923b6cd7b101dd6",
+      "bytes": 4626
+    },
+    {
+      "file": "web/icon-cell-180.png",
+      "obj": "web__icon-cell-180.png.gz",
+      "sha": "a3aa1c1d635e0244a431c786e5ec635d025fcf7e0adf907a508f75cee14983eb",
+      "bytes": 1066
+    },
+    {
+      "file": "server/modules/chat/chat.js",
+      "obj": "server__modules_chat_chat.js.gz",
+      "sha": "70f5ac09d310d8882f5a3cd11437d0bed6baddde6f5e01ce764356059e6e4824",
+      "bytes": 12582
+    },
+    {
+      "file": "web/chat.html",
+      "obj": "web__chat.html.gz",
+      "sha": "693194bf6f24ad8a79c3d9a555b9d4f4f6059a8e1808e9493558893297e35854",
+      "bytes": 10013
+    },
+    {
+      "file": "server/modules/group/group.js",
+      "obj": "server__modules_group_group.js.gz",
+      "sha": "947bf4be3443f643ff9b1472e5f67ef373418cfa74b8453f66a2e4ee0e1f5fb1",
+      "bytes": 14012
+    },
+    {
+      "file": "web/zonggong.html",
+      "obj": "web__zonggong.html.gz",
+      "sha": "e7b9a6607ef966c3113ca44ba7a5b0b48de952fdc79b8ee5b86ba2b2b46b9d50",
+      "bytes": 6517
+    }
+  ]
 }
