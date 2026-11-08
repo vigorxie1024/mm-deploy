@@ -1,14 +1,14 @@
 {
-  "version": "2026-11-08T54-merge",
-  "note": "合并总工 T48：补回 cschat 房间/members speak/agents speak/ai members/静音暂停（以他的 server+engine 为超集）",
+  "version": "2026-11-08T55-merge2",
+  "note": "合并总工超集：cschat 模块做成可选依赖，缺文件也不拖死整站",
   "approved_by": "asus",
-  "build": "2026-11-08T04:08:51.081Z",
+  "build": "2026-11-08T04:14:27.384Z",
   "files": [
     {
       "file": "server/server.js",
       "obj": "server__server.js.gz",
-      "sha": "3a1a99a87a21d07a2dc95ba9a2a4b1be76f4e4f35cc31d810316c686ccc530f4",
-      "bytes": 336793
+      "sha": "be624babf0f09911598b2e3f13326f01bd48e88f3a889294c3fe04ee8bfa2b17",
+      "bytes": 337319
     },
     {
       "file": "server/modules/cell/engine.js",
