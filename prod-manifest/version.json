@@ -1,19 +1,19 @@
 {
-  "version": "2026-11-09T07-cache",
-  "note": "缓存版本升级：让语言标注真正生效（旧页面缓存此前一直命中）",
+  "version": "2026-11-09T08-pure2",
+  "note": "语言纯净2：标题/表格/列表也做语言标记，阈值放宽，缓存版本再升",
   "approved_by": "asus",
   "files": [
     {
       "file": "server/book-engine.js",
       "obj": "sub__0.gz",
-      "sha": "34d7953efee6f278b93a540ec86ef98d2823c003b925707d502f7d494979fa62",
-      "bytes": 14995
+      "sha": "d0be4160faa4307c470e6aaaed2ddfedf767e0d105c465fb8c22f57640d980cf",
+      "bytes": 15469
     },
     {
       "file": "server/book-view.js",
       "obj": "sub__1.gz",
-      "sha": "f200896220acec18a51037a8287e2b675e2fbf7892aa376f0f9d65647fbc0bb7",
-      "bytes": 60982
+      "sha": "885e5fed11336b1fc72a2562910f08c436a8c6cbad45aa78cacac03d2e0a2b2c",
+      "bytes": 60986
     }
   ]
 }
