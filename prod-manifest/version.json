@@ -1,8 +1,8 @@
 {
-  "version": "2026-11-08T55-merge2",
-  "note": "合并总工超集：cschat 模块做成可选依赖，缺文件也不拖死整站",
+  "version": "2026-11-08T56-restart",
+  "note": "触发一次完整更新循环：文件已落盘但服务未重启，需要重新走 install+restart",
   "approved_by": "asus",
-  "build": "2026-11-08T04:14:27.384Z",
+  "build": "2026-11-08T04:18:28.575Z",
   "files": [
     {
       "file": "server/server.js",
