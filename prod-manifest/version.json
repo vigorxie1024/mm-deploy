@@ -1,19 +1,19 @@
 {
-  "version": "2026-11-09T06-lang",
-  "note": "语言纯净：中文页只出中文段、英文页只出英文段；切换写cookie后整页重载",
+  "version": "2026-11-09T07-cache",
+  "note": "缓存版本升级：让语言标注真正生效（旧页面缓存此前一直命中）",
   "approved_by": "asus",
   "files": [
     {
       "file": "server/book-engine.js",
       "obj": "sub__0.gz",
-      "sha": "1c8c67190dd7e53a24695e780ae6d1161c4faf3a011969425d6bae38d27e9f60",
-      "bytes": 14831
+      "sha": "34d7953efee6f278b93a540ec86ef98d2823c003b925707d502f7d494979fa62",
+      "bytes": 14995
     },
     {
       "file": "server/book-view.js",
       "obj": "sub__1.gz",
-      "sha": "47b27775ad1a865bfa54d31b49f56ec56c568a2b3317630302fa8b8b25a5ab1d",
-      "bytes": 60986
+      "sha": "f200896220acec18a51037a8287e2b675e2fbf7892aa376f0f9d65647fbc0bb7",
+      "bytes": 60982
     }
   ]
 }
