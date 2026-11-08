@@ -1,7 +1,6 @@
 {
-  "version": "2026-11-08T50-who",
-  "note": "圆桌加「谁在」状态条：一眼看到总工有没有打开面板",
-  "build": "2026-11-08T03:25:25.716Z",
+  "version": "2026-11-08T51-decoy",
+  "note": "门禁测试：故意不带 approved_by",
   "files": [
     {
       "file": "server/server.js",
