@@ -1,14 +1,25 @@
 {
-    "version": "2026-11-09T68-nocache",
-    "note": "T68 根治微信缓存旧页面空白：cschat-cell 路由强制给 URL 补 ?v= 版本号（取页面文件 mtime，每次部署覆盖就变），令牌登录跳转也保留版本号；响应头加强为 no-cache,no-store,must-revalidate。微信把 ?v= 不同当新页面拉，不再喂缓存旧页。只改 server/server.js。",
-    "approved_by": "asus",
-    "build": "2026-11-09T01:02:37.515871+00:00",
-    "files": [
-        {
-            "file": "server/server.js",
-            "obj": "server__server.js.gz",
-            "sha": "24fc23396c84c441430d27e0b517688abee284c1f32541fc39ff3b2606a120a8",
-            "bytes": 339486
-        }
-    ]
+  "version": "2026-11-09T99-asus",
+  "note": "合并版：保留我的群中枢/单聊/语言纯净 + 移植总工T68的图片上传与页面版本号",
+  "approved_by": "asus",
+  "files": [
+    {
+      "file": "server/server.js",
+      "obj": "sub__0.gz",
+      "sha": "aa67c4d2779c280558a51a0360827fe9aa34e1fa08fd62360ee95be91dc5d583",
+      "bytes": 339350
+    },
+    {
+      "file": "server/book-engine.js",
+      "obj": "sub__1.gz",
+      "sha": "d0be4160faa4307c470e6aaaed2ddfedf767e0d105c465fb8c22f57640d980cf",
+      "bytes": 15469
+    },
+    {
+      "file": "server/book-view.js",
+      "obj": "sub__2.gz",
+      "sha": "885e5fed11336b1fc72a2562910f08c436a8c6cbad45aa78cacac03d2e0a2b2c",
+      "bytes": 60986
+    }
+  ]
 }
