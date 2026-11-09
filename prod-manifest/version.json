@@ -1,13 +1,25 @@
 {
-  "version": "2026-11-09T9999-probe",
-  "note": "定时器存活探针",
+  "version": "2026-11-10T01-asus",
+  "note": "语言纯净全量 + 阅读页版本诊断 + 合并总工 T68 图片上传",
   "approved_by": "asus",
   "files": [
     {
-      "file": "web/probe3.json",
-      "obj": "probe3.gz",
-      "sha": "74e9adc7732d64804409a6bcc804d1ae52874b870b23512d3d987b7cbde6cdce",
-      "bytes": 55
+      "file": "server/server.js",
+      "obj": "sub__0.gz",
+      "sha": "055c1cf38b181048bce6c5229b3bad8aa4cf6fdf8abcaa98418445896ed369d6",
+      "bytes": 339462
+    },
+    {
+      "file": "server/book-engine.js",
+      "obj": "sub__1.gz",
+      "sha": "d0be4160faa4307c470e6aaaed2ddfedf767e0d105c465fb8c22f57640d980cf",
+      "bytes": 15469
+    },
+    {
+      "file": "server/book-view.js",
+      "obj": "sub__2.gz",
+      "sha": "9c04c97156e7dedf0bb1488627f791b02aedc1f349c56c373be4a654ec1720fb",
+      "bytes": 61349
     }
   ]
 }
