@@ -1,19 +1,19 @@
 {
-  "version": "2026-11-09T999b-asus",
-  "note": "界面文案中英直出 + 缓存版本 v51（让英文页首屏即英文）",
+  "version": "2026-11-09T999c-asus",
+  "note": "诊断：/api/version 暴露阅读页版本，确认部署是否真的装上",
   "approved_by": "asus",
   "files": [
     {
-      "file": "server/book-engine.js",
+      "file": "server/server.js",
       "obj": "sub__0.gz",
-      "sha": "d0be4160faa4307c470e6aaaed2ddfedf767e0d105c465fb8c22f57640d980cf",
-      "bytes": 15469
+      "sha": "055c1cf38b181048bce6c5229b3bad8aa4cf6fdf8abcaa98418445896ed369d6",
+      "bytes": 339462
     },
     {
       "file": "server/book-view.js",
       "obj": "sub__1.gz",
-      "sha": "7c33bf8f17b4a7fb78e20ff1acad27dfa65b2727628aec2f35ed01b5624c66dd",
-      "bytes": 61321
+      "sha": "9c04c97156e7dedf0bb1488627f791b02aedc1f349c56c373be4a654ec1720fb",
+      "bytes": 61349
     }
   ]
 }
