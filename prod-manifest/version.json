@@ -1,14 +1,14 @@
 {
-    "version": "2026-11-09T67-nodup",
-    "note": "T67 修复乐观渲染重影：去重对账只对真实消息生效，乐观占位自己进 add() 时跳过对账，否则会把自己的占位记录撤掉、真实消息到来时无据可对导致重复显示。只改 web/cschat-cell.html。",
+    "version": "2026-11-09T68-nocache",
+    "note": "T68 根治微信缓存旧页面空白：cschat-cell 路由强制给 URL 补 ?v= 版本号（取页面文件 mtime，每次部署覆盖就变），令牌登录跳转也保留版本号；响应头加强为 no-cache,no-store,must-revalidate。微信把 ?v= 不同当新页面拉，不再喂缓存旧页。只改 server/server.js。",
     "approved_by": "asus",
-    "build": "2026-11-09T00:57:02.533140+00:00",
+    "build": "2026-11-09T01:02:37.515871+00:00",
     "files": [
         {
-            "file": "web/cschat-cell.html",
-            "obj": "web__cschat-cell.html.gz",
-            "sha": "1decdeec5270ac7ce13935d66fe75a295479b1836873c36d11e2d087bc6dc031",
-            "bytes": 37438
+            "file": "server/server.js",
+            "obj": "server__server.js.gz",
+            "sha": "24fc23396c84c441430d27e0b517688abee284c1f32541fc39ff3b2606a120a8",
+            "bytes": 339486
         }
     ]
 }
