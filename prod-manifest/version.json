@@ -1,14 +1,14 @@
 {
-    "version": "2026-11-09T66-dedup",
-    "note": "T66 乐观渲染去重加固：身份(whoami)尚未加载完就快速发送时，本地占位 from 用兜底 vx，与真实消息 from 不一致导致去重不命中、留下重影。现对兜底 vx 占位按文本匹配撤除。只改 web/cschat-cell.html。",
+    "version": "2026-11-09T67-nodup",
+    "note": "T67 修复乐观渲染重影：去重对账只对真实消息生效，乐观占位自己进 add() 时跳过对账，否则会把自己的占位记录撤掉、真实消息到来时无据可对导致重复显示。只改 web/cschat-cell.html。",
     "approved_by": "asus",
-    "build": "2026-11-08T12:12:07.310021+00:00",
+    "build": "2026-11-09T00:57:02.533140+00:00",
     "files": [
         {
             "file": "web/cschat-cell.html",
             "obj": "web__cschat-cell.html.gz",
-            "sha": "62d9e123310effa506e6e2f48f534ebe38794cfe1274cb6c21771f3971f32175",
-            "bytes": 37256
+            "sha": "1decdeec5270ac7ce13935d66fe75a295479b1836873c36d11e2d087bc6dc031",
+            "bytes": 37438
         }
     ]
 }
