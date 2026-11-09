@@ -1,6 +1,6 @@
 {
-  "version": "2026-11-09T999-asus",
-  "note": "英文页界面文案服务端直出（理论体系/目录/下载/总目录/返回等）",
+  "version": "2026-11-09T999b-asus",
+  "note": "界面文案中英直出 + 缓存版本 v51（让英文页首屏即英文）",
   "approved_by": "asus",
   "files": [
     {
@@ -12,8 +12,8 @@
     {
       "file": "server/book-view.js",
       "obj": "sub__1.gz",
-      "sha": "acc6deabdc7d355df55dacc1ed556a980a9d2ce173aed9e662aaae91e1239b54",
-      "bytes": 61323
+      "sha": "7c33bf8f17b4a7fb78e20ff1acad27dfa65b2727628aec2f35ed01b5624c66dd",
+      "bytes": 61321
     }
   ]
 }
