@@ -1,13 +1,13 @@
 {
-  "version": "2026-11-10T09-bilingual",
-  "note": "首页加双语声明：双语是基因不是附加功能",
+  "version": "2026-11-10T11-txtool",
+  "note": "只发工具脚本：服务器端翻译驱动",
   "approved_by": "asus",
   "files": [
     {
-      "file": "web/index.html",
-      "obj": "sub__20261110T09bilingual__0.gz",
-      "sha": "e5fcbac6ea9616d62f0c07180d974284b01695eeefeb5ea23e39c64beea87483",
-      "bytes": 16956
+      "file": ".deploy/tools/srv-translate.py",
+      "obj": "sub__20261110T11txtool__0.gz",
+      "sha": "df7407a988b9f288484805ed7ac5db6c4de81a64c1549485dd8011b43ce28218",
+      "bytes": 2421
     }
   ]
 }
