@@ -1,13 +1,31 @@
 {
-  "version": "2026-11-10T13-mobile",
-  "note": "移动端加固：固定宽度收敛、表格横滚、字号与触控适配",
+  "version": "2026-11-10T14-try",
+  "note": "阅读页手机优化 + 随时随地体验页（含二维码）",
   "approved_by": "asus",
   "files": [
     {
-      "file": "web/app.css",
-      "obj": "sub__20261110T13mobile__0.gz",
-      "sha": "cb623b5e39c151d559d68be7c19a3e733c251eac936feaa24dcbf8c3e138e827",
-      "bytes": 17213
+      "file": "server/book-view.js",
+      "obj": "sub__20261110T14try__0.gz",
+      "sha": "c7dd189c3df4f4425ea66d5447852374e89898eeec705d73d2ee1a330a88895a",
+      "bytes": 62857
+    },
+    {
+      "file": "web/try.html",
+      "obj": "sub__20261110T14try__1.gz",
+      "sha": "49734acfa6de7d749e8f5c5ce7ccac96bc402b8a5f672f7e6ca708e78337b113",
+      "bytes": 5670
+    },
+    {
+      "file": "web/images/qrcode/qr-site-240.png",
+      "obj": "sub__20261110T14try__2.gz",
+      "sha": "df241856a7a38637abdedd5c85688a7bd455093806ac48933ec6150261448ed3",
+      "bytes": 7801
+    },
+    {
+      "file": "web/images/qrcode/qr-site-480.png",
+      "obj": "sub__20261110T14try__3.gz",
+      "sha": "63c7ccf3c9168552665d2e22da6ecb638e55c46c3b98fb39080a6adaf08c19a7",
+      "bytes": 15587
     }
   ]
 }
