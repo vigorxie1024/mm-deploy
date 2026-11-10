@@ -1,13 +1,13 @@
 {
-  "version": "2026-11-10T08-tx2",
-  "note": "上 server.js：激活 /api/translate（上一版被跳过）",
+  "version": "2026-11-10T09-bilingual",
+  "note": "首页加双语声明：双语是基因不是附加功能",
   "approved_by": "asus",
   "files": [
     {
-      "file": "server/server.js",
-      "obj": "sub__20261110T08tx2__0.gz",
-      "sha": "253e26bef96568867a4a2f8fdc969101b5c0744ba48dd63b9c00edfc68950aec",
-      "bytes": 342069
+      "file": "web/index.html",
+      "obj": "sub__20261110T09bilingual__0.gz",
+      "sha": "e5fcbac6ea9616d62f0c07180d974284b01695eeefeb5ea23e39c64beea87483",
+      "bytes": 16956
     }
   ]
 }
