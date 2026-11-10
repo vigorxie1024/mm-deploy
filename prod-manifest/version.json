@@ -1,31 +1,13 @@
 {
-  "version": "2026-11-10T14-try",
-  "note": "阅读页手机优化 + 随时随地体验页（含二维码）",
+  "version": "2026-11-10T15-restore",
+  "note": "恢复完整功能：11:09 的重写覆盖了 cell/gate/token/room/group/chat/translate/presence/zg，先回滚保住站点",
   "approved_by": "asus",
   "files": [
     {
-      "file": "server/book-view.js",
-      "obj": "sub__20261110T14try__0.gz",
-      "sha": "c7dd189c3df4f4425ea66d5447852374e89898eeec705d73d2ee1a330a88895a",
-      "bytes": 62857
-    },
-    {
-      "file": "web/try.html",
-      "obj": "sub__20261110T14try__1.gz",
-      "sha": "49734acfa6de7d749e8f5c5ce7ccac96bc402b8a5f672f7e6ca708e78337b113",
-      "bytes": 5670
-    },
-    {
-      "file": "web/images/qrcode/qr-site-240.png",
-      "obj": "sub__20261110T14try__2.gz",
-      "sha": "df241856a7a38637abdedd5c85688a7bd455093806ac48933ec6150261448ed3",
-      "bytes": 7801
-    },
-    {
-      "file": "web/images/qrcode/qr-site-480.png",
-      "obj": "sub__20261110T14try__3.gz",
-      "sha": "63c7ccf3c9168552665d2e22da6ecb638e55c46c3b98fb39080a6adaf08c19a7",
-      "bytes": 15587
+      "file": "server/server.js",
+      "obj": "sub__20261110T15restore__0.gz",
+      "sha": "253e26bef96568867a4a2f8fdc969101b5c0744ba48dd63b9c00edfc68950aec",
+      "bytes": 342069
     }
   ]
 }
