@@ -1,13 +1,13 @@
 {
-  "version": "2026-11-10T12-txtool2",
-  "note": "翻译驱动支持章号定位（绕开中文文件名转码）",
+  "version": "2026-11-10T13-mobile",
+  "note": "移动端加固：固定宽度收敛、表格横滚、字号与触控适配",
   "approved_by": "asus",
   "files": [
     {
-      "file": ".deploy/tools/srv-translate.py",
-      "obj": "sub__20261110T12txtool2__0.gz",
-      "sha": "76b3c07a17d497d5fd597c973298b01e2e04a5a0bfa5514c727c61760d940040",
-      "bytes": 3011
+      "file": "web/app.css",
+      "obj": "sub__20261110T13mobile__0.gz",
+      "sha": "cb623b5e39c151d559d68be7c19a3e733c251eac936feaa24dcbf8c3e138e827",
+      "bytes": 17213
     }
   ]
 }
