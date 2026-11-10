@@ -1,13 +1,13 @@
 {
-  "version": "2026-11-10T11-txtool",
-  "note": "只发工具脚本：服务器端翻译驱动",
+  "version": "2026-11-10T12-txtool2",
+  "note": "翻译驱动支持章号定位（绕开中文文件名转码）",
   "approved_by": "asus",
   "files": [
     {
       "file": ".deploy/tools/srv-translate.py",
-      "obj": "sub__20261110T11txtool__0.gz",
-      "sha": "df7407a988b9f288484805ed7ac5db6c4de81a64c1549485dd8011b43ce28218",
-      "bytes": 2421
+      "obj": "sub__20261110T12txtool2__0.gz",
+      "sha": "76b3c07a17d497d5fd597c973298b01e2e04a5a0bfa5514c727c61760d940040",
+      "bytes": 3011
     }
   ]
 }
