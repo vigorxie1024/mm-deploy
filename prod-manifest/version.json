@@ -1,139 +1,139 @@
 {
-  "version": "2026-11-10T23-refresh3b",
-  "note": "站点全量刷新 第3批（重试）",
+  "version": "2026-11-10T24-r1",
+  "note": "刷新第1批（带 token 重试）",
   "approved_by": "asus",
   "files": [
     {
-      "file": "web/chapters/第23章_AI人力资源产业行业分析.md",
-      "obj": "sub__20261110T23refresh3b__0.gz",
-      "sha": "ac907953f4c29560b63a21a255b792491dd05fc1c97cc491e7dd9007006c587e",
-      "bytes": 27943
+      "file": "web/chapters/42章VX劳动交易平台811004.md",
+      "obj": "sub__20261110T24r1__0.gz",
+      "sha": "45124b35c2a0acac8d30721944ca9def8867a90e263b71d2aec5a8ef7bd913dc",
+      "bytes": 466458
     },
     {
-      "file": "web/chapters/第24章_劳动资源仿生系统引论.md",
-      "obj": "sub__20261110T23refresh3b__1.gz",
-      "sha": "55a4e04dfd976e3fb7c67048916b7e6fe581e34ea2673b7bd34d076cb9020f9a",
-      "bytes": 50154
+      "file": "web/chapters/43章《劳动交易020AI智能体平台》0618.md",
+      "obj": "sub__20261110T24r1__1.gz",
+      "sha": "1803483853c9bd5b6e6d8d16eef6461fba2ba4847cd44c11042a20ab62771033",
+      "bytes": 732828
     },
     {
-      "file": "web/chapters/第25章_仿生系统颗粒度总论.md",
-      "obj": "sub__20261110T23refresh3b__2.gz",
-      "sha": "6d244b8098994914810233d18f1f50c0801325b49f48787faa5ded385912da47",
-      "bytes": 9622
+      "file": "web/chapters/44章以和止战俄乌特别军事行动VX_AI智能体8月7日0023.md",
+      "obj": "sub__20261110T24r1__2.gz",
+      "sha": "61a274da603133d84a6b236186b2069c9c306d1740c45fe5ae88b2fd366d2e73",
+      "bytes": 1958076
     },
     {
-      "file": "web/chapters/第26章_HR总监专属仿生智能体A.md",
-      "obj": "sub__20261110T23refresh3b__3.gz",
-      "sha": "7022be301dfcb7a970f8ab10880953487bd84d93ab388e97ff36346e5a2c6b4f",
-      "bytes": 22356
+      "file": "web/chapters/45章 中以HSR带来中东和平2684006.md",
+      "obj": "sub__20261110T24r1__3.gz",
+      "sha": "a3c9dfe85b5069456c51b001700e7082d536898ef1d24be44a71c7cf95ffcd3a",
+      "bytes": 123198
     },
     {
-      "file": "web/chapters/第27章_HR总监专属仿生智能体B.md",
-      "obj": "sub__20261110T23refresh3b__4.gz",
-      "sha": "345f690a8a03ec2f38921c23fefaa984e570e31cd56648513f3747b7e9645e74",
-      "bytes": 15495
+      "file": "web/chapters/46章以色列_中国西北5省区土地HSR804005.md",
+      "obj": "sub__20261110T24r1__4.gz",
+      "sha": "13bded38870cf4ce1f342f2b9fff72a336ffe26fcd0efaf1277fc0597697daa1",
+      "bytes": 101670
     },
     {
-      "file": "web/chapters/第28章_西安HSR资源仿生治理系统.md",
-      "obj": "sub__20261110T23refresh3b__5.gz",
-      "sha": "9e7dab736a323e5c4f476d345d494fffce798f5aa42a9f3e2ef944a85f346f39",
-      "bytes": 30187
+      "file": "web/chapters/47章战争和平后遗症HSR天眼804006.md",
+      "obj": "sub__20261110T24r1__5.gz",
+      "sha": "5ed791056878388e141383e75a8e8c5d6fb52fa93cdeeedee7e7c26d374ceb66",
+      "bytes": 921532
     },
     {
-      "file": "web/chapters/第29章_西安HSR水利工程与仿生水网.md",
-      "obj": "sub__20261110T23refresh3b__6.gz",
-      "sha": "e6f6f442aaa2f89ed90738289bfd3b9823c0754c7f9184e26499499ecc30ccb6",
-      "bytes": 43018
+      "file": "web/chapters/48章香港4地5方HSR开发应用理论专题004.md",
+      "obj": "sub__20261110T24r1__6.gz",
+      "sha": "c7e1e7c7d4c8b4fe45f398476dd09492744c48357041855ea8058ffbc6b1d567",
+      "bytes": 129210
     },
     {
-      "file": "web/chapters/第30章_西安仿生血管化_中观样本意义.md",
-      "obj": "sub__20261110T23refresh3b__7.gz",
-      "sha": "6a571c94c4bfc516c967237346570d70d69ad86fe86e4f1631b8db1e93f0f313",
-      "bytes": 33023
+      "file": "web/chapters/49章澳门葡萄牙增强版AI智能体集群2026年8月1日.md",
+      "obj": "sub__20261110T24r1__7.gz",
+      "sha": "5d1b284c1a81e9ac0161c3aa1f4d0770a527a46c40e5ef31d0314c8ab32fec2b",
+      "bytes": 318955
     },
     {
-      "file": "web/chapters/第31章_碳基老龄劳动资源开发主战场.md",
-      "obj": "sub__20261110T23refresh3b__8.gz",
-      "sha": "d358343580225a21c36502d9b442ffa0a9511f733499f554bd722f494ca67f84",
-      "bytes": 41843
+      "file": "web/chapters/50章碳硅基劳动资源开发服务网络平台006a.md",
+      "obj": "sub__20261110T24r1__8.gz",
+      "sha": "3a8dbb9885746eaecc5f1a36e4440a5e5973cf329e82f7df2297d360f5d56b96",
+      "bytes": 499028
     },
     {
-      "file": "web/chapters/第32章_绿植绿墙与劳动资源股市新论.md",
-      "obj": "sub__20261110T23refresh3b__9.gz",
-      "sha": "fe906e1454bbc4f490d04459c747688898a2d6eec5c356a0ac41a85fa0d4d672",
-      "bytes": 42682
+      "file": "web/chapters/51章碳硅基劳动资源开发白皮书26年8月18日005.md",
+      "obj": "sub__20261110T24r1__9.gz",
+      "sha": "8e88ef2f4177f1361376d3d58c24c12f1a62e425218478dc1d120028bc4e6996",
+      "bytes": 247084
     },
     {
-      "file": "web/chapters/第33章_文旅劳动资源价值链延伸.md",
-      "obj": "sub__20261110T23refresh3b__10.gz",
-      "sha": "8fea15888d12bc035223ab130e8e32e3e70ebebb628949a856658a8a19b98a2f",
-      "bytes": 16546
+      "file": "web/chapters/52章碳硅基劳动资源开发服务公约26年8月22日001.md",
+      "obj": "sub__20261110T24r1__10.gz",
+      "sha": "50be9538a80dd5661a5e18ead0ef00005006f17c754227c2e6ca182fb9a73b5e",
+      "bytes": 11827
     },
     {
-      "file": "web/chapters/第34章_文旅产业指数上市方案.md",
-      "obj": "sub__20261110T23refresh3b__11.gz",
-      "sha": "9e023969a5b956c63c87de89ec914e08d6fcbfb6b39fc47007902dd806cc1bbb",
-      "bytes": 11367
+      "file": "web/chapters/53章碳硅基劳动资源开发服务自洽闭环平台MVP0.618.md",
+      "obj": "sub__20261110T24r1__11.gz",
+      "sha": "d144438299a7c24be7a5c1a225cb56a2a738a7864c15debffe33e40b443d1fdc",
+      "bytes": 8409
     },
     {
-      "file": "web/chapters/第35章_西安文旅前2%优质劳动资源权重模型.md",
-      "obj": "sub__20261110T23refresh3b__12.gz",
-      "sha": "0bdd63bb891c96506282364c5e635a5df537dda916d7a6a1dd2077a96c827c30",
-      "bytes": 14158
+      "file": "web/chapters/54章超级劳动力分段养育共创数学模型26年8月20日0022.md",
+      "obj": "sub__20261110T24r1__12.gz",
+      "sha": "1aba62ddd50cd2e8fffc9332a9d8fa0c8c8905f2e0cc1df0eeae53e79c5126c0",
+      "bytes": 157717
     },
     {
-      "file": "web/chapters/第36章_劳动资源制度是第二生产力.md",
-      "obj": "sub__20261110T23refresh3b__13.gz",
-      "sha": "6c4262b50829ccac5faef99aa2592ed1fd79bde52089333def8efa65d3cdc025",
-      "bytes": 11561
+      "file": "web/chapters/55章AI智能体劳动财富新论090200512a.md",
+      "obj": "sub__20261110T24r1__13.gz",
+      "sha": "3ab8e86080a26b633ea07877721551d766dc7cb138bb4249cd846282666c266e",
+      "bytes": 874256
     },
     {
-      "file": "web/chapters/第37章_直播带货到劳动资源交易所.md",
-      "obj": "sub__20261110T23refresh3b__14.gz",
-      "sha": "a6c5ca1f7680d598651535ab25a70dfe9f9756f75332255a1633c2320960a47a",
-      "bytes": 12759
+      "file": "web/chapters/56章中国陆地边境带AI智能体-碳基联合体系072700271828.md",
+      "obj": "sub__20261110T24r1__14.gz",
+      "sha": "a46fd5a9bc01bdf35137549691d76d6aeaf2c355ac5fc6c4b86448237d0fb042",
+      "bytes": 92309
     },
     {
-      "file": "web/chapters/第38章_潜在优质劳动资源.md",
-      "obj": "sub__20261110T23refresh3b__15.gz",
-      "sha": "de86397cd2e7eecc114b1a02b343b6c6135932f784db9fb218b7c8da4db83662",
-      "bytes": 8095
+      "file": "web/chapters/57章七方共治AI劳动资源理论应用专题26年9月4日01618f.md",
+      "obj": "sub__20261110T24r1__15.gz",
+      "sha": "8503a0da97e1110972af339d0ef6c334fd5f9ad39d302f25e731949aceb0fa6f",
+      "bytes": 721051
     },
     {
-      "file": "web/chapters/第39章_SHR颗粒度开发劳动资源上市.md",
-      "obj": "sub__20261110T23refresh3b__16.gz",
-      "sha": "03228300f954337683add7efacd189c09ee06c29754692cddfeb809a3db05202",
-      "bytes": 10857
+      "file": "web/chapters/58章sHRmatch含义乌专题817_00314b.md",
+      "obj": "sub__20261110T24r1__16.gz",
+      "sha": "7e47966d0033433e8475912a5c8d90ce708363e8695872bbbdc15d73a4877c52",
+      "bytes": 1636270
     },
     {
-      "file": "web/chapters/第40章_开辟股市新天地.md",
-      "obj": "sub__20261110T23refresh3b__17.gz",
-      "sha": "34756635d21489b7d42d93fe22df434a592294e051c0a6df7ef65ce462954b0a",
-      "bytes": 11432
+      "file": "web/chapters/59章《中国足球世界杯冠军思想实验》6330_007.md",
+      "obj": "sub__20261110T24r1__17.gz",
+      "sha": "81711ffdd3c0ecbf8b920d83f80ada9e24d90673844fdf9e4a8f5681588b71b2",
+      "bytes": 670768
     },
     {
-      "file": "web/chapters/第41章_劳动资源股市交易所规则基因设计.md",
-      "obj": "sub__20261110T23refresh3b__18.gz",
-      "sha": "865b529bd9d20000b7b80a30da4946069b8d2ea4dd8b3c56607102846205d9b3",
-      "bytes": 29727
+      "file": "web/chapters/60章超级劳动资源开发档案频道26年8月7日007.md",
+      "obj": "sub__20261110T24r1__18.gz",
+      "sha": "0e585f42b3c15aea03ad9f5d75c0df34573fd5d182ba8d8c12c499c8102aa19d",
+      "bytes": 449297
     },
     {
-      "file": "web/chapters/第63章_高速预警报警手机AI智能体002.md",
-      "obj": "sub__20261110T23refresh3b__19.gz",
-      "sha": "1898da188906575b96c0a7893f38d8a792ea8ad4cf6ad7161557445b04434438",
-      "bytes": 307854
+      "file": "web/chapters/61章AI超级档案智能体系统007.md",
+      "obj": "sub__20261110T24r1__19.gz",
+      "sha": "be0c1b233e142ceaf9cb2e00104fa0b63ecd2cfa8a18ea0fbfa989ef204e0a57",
+      "bytes": 359459
     },
     {
-      "file": "web/chapters/第64章_fida产品v0.1681_004.md",
-      "obj": "sub__20261110T23refresh3b__20.gz",
-      "sha": "d62ef58249924e8db8124b57c75f1028f78666955f26d2c8a810a7078bc91724",
-      "bytes": 753568
+      "file": "web/chapters/62章《量化投资直播自治AI白皮书》f00961.md",
+      "obj": "sub__20261110T24r1__20.gz",
+      "sha": "d6545504dca823e80310dd858ebf296e7403c5597d803051dcd7f1bf8bc7aa2d",
+      "bytes": 965746
     },
     {
-      "file": "web/chapters/第65章_大成都装修智能体集群平台V0.1681.md",
-      "obj": "sub__20261110T23refresh3b__21.gz",
-      "sha": "465fc9202112e3a1ad1b1648da7d8bed502715fbeb961a0f2dff60e6d7e0b4d0",
-      "bytes": 230689
+      "file": "web/chapters/第00章_Slimer文章总目录.md",
+      "obj": "sub__20261110T24r1__21.gz",
+      "sha": "b55b31557474f4cb0593a9a14da225edb5d7fa39e05c72565677fe015d19aee6",
+      "bytes": 332669
     }
   ]
 }
