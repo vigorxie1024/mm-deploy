@@ -1,13 +1,19 @@
 {
-  "version": "2026-11-10T05-tx",
-  "note": "新增批量翻译端点 /api/translate（供补齐第63-65章英文版）",
+  "version": "2026-11-10T07-terms",
+  "note": "中文页保留英文术语原词：只隐藏成段英文正文；缓存版本 v52",
   "approved_by": "asus",
   "files": [
     {
-      "file": "server/server.js",
-      "obj": "sub__20261110T05tx__0.gz",
-      "sha": "253e26bef96568867a4a2f8fdc969101b5c0744ba48dd63b9c00edfc68950aec",
-      "bytes": 342069
+      "file": "server/book-engine.js",
+      "obj": "sub__20261110T07terms__0.gz",
+      "sha": "96d539fe1aac520dea9f8fac9bc32b3b00e6f967d1b2d33c516124445cf50c7a",
+      "bytes": 15755
+    },
+    {
+      "file": "server/book-view.js",
+      "obj": "sub__20261110T07terms__1.gz",
+      "sha": "4338761d32d4c585a22496eaf4b93707133d988b2a6c2c8533d9cbd2fbfcaec4",
+      "bytes": 61348
     }
   ]
 }
