@@ -1,139 +1,139 @@
 {
-  "version": "2026-11-10T21-refresh2",
-  "note": "站点全量刷新 第2批",
+  "version": "2026-11-10T22-refresh3",
+  "note": "站点全量刷新 第3批",
   "approved_by": "asus",
   "files": [
     {
-      "file": "web/chapters/第01章_导论.md",
-      "obj": "sub__20261110T21refresh2__0.gz",
-      "sha": "cff1743a2291ce5bcd56a28ebaaa1c266c600d4c3597deeb35e656eeac1030ad",
-      "bytes": 58943
+      "file": "web/chapters/第23章_AI人力资源产业行业分析.md",
+      "obj": "sub__20261110T22refresh3__0.gz",
+      "sha": "ac907953f4c29560b63a21a255b792491dd05fc1c97cc491e7dd9007006c587e",
+      "bytes": 27943
     },
     {
-      "file": "web/chapters/第02章_全球AI劳动资源统计.md",
-      "obj": "sub__20261110T21refresh2__1.gz",
-      "sha": "cbdb3384aaf089ec4d9a4d0101969bf112b557f00e4d89ee8543c9008cfdf7a7",
-      "bytes": 67953
+      "file": "web/chapters/第24章_劳动资源仿生系统引论.md",
+      "obj": "sub__20261110T22refresh3__1.gz",
+      "sha": "55a4e04dfd976e3fb7c67048916b7e6fe581e34ea2673b7bd34d076cb9020f9a",
+      "bytes": 50154
     },
     {
-      "file": "web/chapters/第03章_更久远的背景回望.md",
-      "obj": "sub__20261110T21refresh2__2.gz",
-      "sha": "21eca9818a45afc8769d546652b3dd58e93ca4f12e1fe31d4f3345328b5c8199",
-      "bytes": 70487
+      "file": "web/chapters/第25章_仿生系统颗粒度总论.md",
+      "obj": "sub__20261110T22refresh3__2.gz",
+      "sha": "6d244b8098994914810233d18f1f50c0801325b49f48787faa5ded385912da47",
+      "bytes": 9622
     },
     {
-      "file": "web/chapters/第04章_形势问题对策与硅基理论解析.md",
-      "obj": "sub__20261110T21refresh2__3.gz",
-      "sha": "ec42cb768894ae1081bb38f482c827b2d150cdbf3088dfa9347919dd130f75e8",
-      "bytes": 106034
+      "file": "web/chapters/第26章_HR总监专属仿生智能体A.md",
+      "obj": "sub__20261110T22refresh3__3.gz",
+      "sha": "7022be301dfcb7a970f8ab10880953487bd84d93ab388e97ff36346e5a2c6b4f",
+      "bytes": 22356
     },
     {
-      "file": "web/chapters/第05章_三元HSR治理框架设计.md",
-      "obj": "sub__20261110T21refresh2__4.gz",
-      "sha": "ee77866f51d64f4d2c16132040a0ae6d964acaa32000a39928a214ee3d81275b",
-      "bytes": 46898
+      "file": "web/chapters/第27章_HR总监专属仿生智能体B.md",
+      "obj": "sub__20261110T22refresh3__4.gz",
+      "sha": "345f690a8a03ec2f38921c23fefaa984e570e31cd56648513f3747b7e9645e74",
+      "bytes": 15495
     },
     {
-      "file": "web/chapters/第06章_木桶新论智能体矩阵与流程重构.md",
-      "obj": "sub__20261110T21refresh2__5.gz",
-      "sha": "39974605999bc26a410ae9c9cb656dcdc6e352a5d8f3bd24a248294b463b3bc5",
-      "bytes": 31904
+      "file": "web/chapters/第28章_西安HSR资源仿生治理系统.md",
+      "obj": "sub__20261110T22refresh3__5.gz",
+      "sha": "9e7dab736a323e5c4f476d345d494fffce798f5aa42a9f3e2ef944a85f346f39",
+      "bytes": 30187
     },
     {
-      "file": "web/chapters/第07章_把蓝图变成大地制度化框架.md",
-      "obj": "sub__20261110T21refresh2__6.gz",
-      "sha": "27936dcfec9c89be45eecb3ad54a09410a6198cd7539b86e6cefbec850736510",
-      "bytes": 30645
+      "file": "web/chapters/第29章_西安HSR水利工程与仿生水网.md",
+      "obj": "sub__20261110T22refresh3__6.gz",
+      "sha": "e6f6f442aaa2f89ed90738289bfd3b9823c0754c7f9184e26499499ecc30ccb6",
+      "bytes": 43018
     },
     {
-      "file": "web/chapters/第08章_走向人机共生文明_三元分论.md",
-      "obj": "sub__20261110T21refresh2__7.gz",
-      "sha": "da6ec32d67727603485a7ea7b772483a94a3b2af855c2b9b639a1e61e21dfa68",
-      "bytes": 14893
+      "file": "web/chapters/第30章_西安仿生血管化_中观样本意义.md",
+      "obj": "sub__20261110T22refresh3__7.gz",
+      "sha": "6a571c94c4bfc516c967237346570d70d69ad86fe86e4f1631b8db1e93f0f313",
+      "bytes": 33023
     },
     {
-      "file": "web/chapters/第09章_三元劳动力可持续发展伦理.md",
-      "obj": "sub__20261110T21refresh2__8.gz",
-      "sha": "5750c4579283c3eb40e39d640a12ab8378b9f3a60f4e9ecd6d2ab7b9677a387a",
-      "bytes": 15163
+      "file": "web/chapters/第31章_碳基老龄劳动资源开发主战场.md",
+      "obj": "sub__20261110T22refresh3__8.gz",
+      "sha": "d358343580225a21c36502d9b442ffa0a9511f733499f554bd722f494ca67f84",
+      "bytes": 41843
     },
     {
-      "file": "web/chapters/第10章_三元劳动资源分类管理.md",
-      "obj": "sub__20261110T21refresh2__9.gz",
-      "sha": "9feb695efc801da134a8bcb0f394035ddbdfcd5953a3b663ab45994aec9a0346",
-      "bytes": 78036
+      "file": "web/chapters/第32章_绿植绿墙与劳动资源股市新论.md",
+      "obj": "sub__20261110T22refresh3__9.gz",
+      "sha": "fe906e1454bbc4f490d04459c747688898a2d6eec5c356a0ac41a85fa0d4d672",
+      "bytes": 42682
     },
     {
-      "file": "web/chapters/第11章_HSR三元文明演化进程与行动指南.md",
-      "obj": "sub__20261110T21refresh2__10.gz",
-      "sha": "d0c959a6ed778f2a6fa9843317c017b461dda2675c4b352943be5c4a5822885c",
-      "bytes": 21690
+      "file": "web/chapters/第33章_文旅劳动资源价值链延伸.md",
+      "obj": "sub__20261110T22refresh3__10.gz",
+      "sha": "8fea15888d12bc035223ab130e8e32e3e70ebebb628949a856658a8a19b98a2f",
+      "bytes": 16546
     },
     {
-      "file": "web/chapters/第12章_HSR开发神话_万年人类精神劳动资源.md",
-      "obj": "sub__20261110T21refresh2__11.gz",
-      "sha": "20fad4a2bdab7ecf9460216788730beb27e7de0203607faff343629884fc6291",
-      "bytes": 20636
+      "file": "web/chapters/第34章_文旅产业指数上市方案.md",
+      "obj": "sub__20261110T22refresh3__11.gz",
+      "sha": "9e023969a5b956c63c87de89ec914e08d6fcbfb6b39fc47007902dd806cc1bbb",
+      "bytes": 11367
     },
     {
-      "file": "web/chapters/第13章_中国HR信息化数字化历史.md",
-      "obj": "sub__20261110T21refresh2__12.gz",
-      "sha": "4c5cb619a2d04bec500827251d29532617560146ff96628db47161683548b9a6",
-      "bytes": 20723
+      "file": "web/chapters/第35章_西安文旅前2%优质劳动资源权重模型.md",
+      "obj": "sub__20261110T22refresh3__12.gz",
+      "sha": "0bdd63bb891c96506282364c5e635a5df537dda916d7a6a1dd2077a96c827c30",
+      "bytes": 14158
     },
     {
-      "file": "web/chapters/第14章_从EHR到DHR再到HSR.md",
-      "obj": "sub__20261110T21refresh2__13.gz",
-      "sha": "4214340e2736289fb6f88c6fb988be3909fe050cd2250c4a8578ef52c947896d",
-      "bytes": 16307
+      "file": "web/chapters/第36章_劳动资源制度是第二生产力.md",
+      "obj": "sub__20261110T22refresh3__13.gz",
+      "sha": "6c4262b50829ccac5faef99aa2592ed1fd79bde52089333def8efa65d3cdc025",
+      "bytes": 11561
     },
     {
-      "file": "web/chapters/第15章_自行车到飞机_治理方法论.md",
-      "obj": "sub__20261110T21refresh2__14.gz",
-      "sha": "749fcf435c8a969662e18c370414d87463f6a072a09b855789235b0a19eb13fd",
-      "bytes": 18918
+      "file": "web/chapters/第37章_直播带货到劳动资源交易所.md",
+      "obj": "sub__20261110T22refresh3__14.gz",
+      "sha": "a6c5ca1f7680d598651535ab25a70dfe9f9756f75332255a1633c2320960a47a",
+      "bytes": 12759
     },
     {
-      "file": "web/chapters/第16章_政府HR三元化路径.md",
-      "obj": "sub__20261110T21refresh2__15.gz",
-      "sha": "89c4029e096b22edd92e51e387337d52b0c39dba8f33be227c598d1ff9480178",
-      "bytes": 45779
+      "file": "web/chapters/第38章_潜在优质劳动资源.md",
+      "obj": "sub__20261110T22refresh3__15.gz",
+      "sha": "de86397cd2e7eecc114b1a02b343b6c6135932f784db9fb218b7c8da4db83662",
+      "bytes": 8095
     },
     {
-      "file": "web/chapters/第17章_HR_HSR连续体.md",
-      "obj": "sub__20261110T21refresh2__16.gz",
-      "sha": "2e01c4d49f1eab81044c700f4c2c70f5ccf2545bc6c10118f707fd64ca843f8b",
-      "bytes": 53720
+      "file": "web/chapters/第39章_SHR颗粒度开发劳动资源上市.md",
+      "obj": "sub__20261110T22refresh3__16.gz",
+      "sha": "03228300f954337683add7efacd189c09ee06c29754692cddfeb809a3db05202",
+      "bytes": 10857
     },
     {
-      "file": "web/chapters/第18章_构建橄榄型三元文明.md",
-      "obj": "sub__20261110T21refresh2__17.gz",
-      "sha": "db2fcf753f54c692799ef8ddcf442aa17e427fa7f19f9ab8d6e500053dde75b6",
-      "bytes": 83427
+      "file": "web/chapters/第40章_开辟股市新天地.md",
+      "obj": "sub__20261110T22refresh3__17.gz",
+      "sha": "34756635d21489b7d42d93fe22df434a592294e051c0a6df7ef65ce462954b0a",
+      "bytes": 11432
     },
     {
-      "file": "web/chapters/第19章_走向人机共生文明.md",
-      "obj": "sub__20261110T21refresh2__18.gz",
-      "sha": "f1bb257231c1257c1d6f5e0316b5c8c51ad86311a26ccb436a4032c2640d27b1",
-      "bytes": 66800
+      "file": "web/chapters/第41章_劳动资源股市交易所规则基因设计.md",
+      "obj": "sub__20261110T22refresh3__18.gz",
+      "sha": "865b529bd9d20000b7b80a30da4946069b8d2ea4dd8b3c56607102846205d9b3",
+      "bytes": 29727
     },
     {
-      "file": "web/chapters/第20章_结合实际_学习借鉴美国.md",
-      "obj": "sub__20261110T21refresh2__19.gz",
-      "sha": "204c3d16f986b2bfbcd8cf958554d1c5884aab4d35963eaa2645b5f9c277597b",
-      "bytes": 80477
+      "file": "web/chapters/第63章_高速预警报警手机AI智能体002.md",
+      "obj": "sub__20261110T22refresh3__19.gz",
+      "sha": "1898da188906575b96c0a7893f38d8a792ea8ad4cf6ad7161557445b04434438",
+      "bytes": 307854
     },
     {
-      "file": "web/chapters/第21章_科学家企业家视角_HSR.md",
-      "obj": "sub__20261110T21refresh2__20.gz",
-      "sha": "32406703ed6c3a878a8639bea8865d877ad879b674bc48ff14e813feab465dee",
-      "bytes": 46727
+      "file": "web/chapters/第64章_fida产品v0.1681_004.md",
+      "obj": "sub__20261110T22refresh3__20.gz",
+      "sha": "d62ef58249924e8db8124b57c75f1028f78666955f26d2c8a810a7078bc91724",
+      "bytes": 753568
     },
     {
-      "file": "web/chapters/第22章_三元劳动AI智能体.md",
-      "obj": "sub__20261110T21refresh2__21.gz",
-      "sha": "6ff84c9654398110bf366ed5f61d5dcedfb878442bc6b5a516131d8f1ffec1cc",
-      "bytes": 58660
+      "file": "web/chapters/第65章_大成都装修智能体集群平台V0.1681.md",
+      "obj": "sub__20261110T22refresh3__21.gz",
+      "sha": "465fc9202112e3a1ad1b1648da7d8bed502715fbeb961a0f2dff60e6d7e0b4d0",
+      "bytes": 230689
     }
   ]
 }
