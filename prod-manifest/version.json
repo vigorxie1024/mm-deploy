@@ -1,19 +1,13 @@
 {
-  "version": "2026-11-10T07-terms",
-  "note": "中文页保留英文术语原词：只隐藏成段英文正文；缓存版本 v52",
+  "version": "2026-11-10T08-tx2",
+  "note": "上 server.js：激活 /api/translate（上一版被跳过）",
   "approved_by": "asus",
   "files": [
     {
-      "file": "server/book-engine.js",
-      "obj": "sub__20261110T07terms__0.gz",
-      "sha": "96d539fe1aac520dea9f8fac9bc32b3b00e6f967d1b2d33c516124445cf50c7a",
-      "bytes": 15755
-    },
-    {
-      "file": "server/book-view.js",
-      "obj": "sub__20261110T07terms__1.gz",
-      "sha": "4338761d32d4c585a22496eaf4b93707133d988b2a6c2c8533d9cbd2fbfcaec4",
-      "bytes": 61348
+      "file": "server/server.js",
+      "obj": "sub__20261110T08tx2__0.gz",
+      "sha": "253e26bef96568867a4a2f8fdc969101b5c0744ba48dd63b9c00edfc68950aec",
+      "bytes": 342069
     }
   ]
 }
