@@ -1,139 +1,19 @@
 {
-  "version": "2026-11-10T25-r2",
-  "note": "刷新第2批（带 token）",
+  "version": "2026-11-10T26-login",
+  "note": "登录引导改造：微信未开通/支付宝需客户端时给可执行下一步 + 自查页",
   "approved_by": "asus",
   "files": [
     {
-      "file": "web/chapters/第01章_导论.md",
-      "obj": "sub__20261110T25r2__0.gz",
-      "sha": "cff1743a2291ce5bcd56a28ebaaa1c266c600d4c3597deeb35e656eeac1030ad",
-      "bytes": 58943
+      "file": "web/login.html",
+      "obj": "sub__20261110T26login__0.gz",
+      "sha": "b96838eacb35daff13635fe6044f9687962a5604dccd7f0352a86761c0dc8ff6",
+      "bytes": 10483
     },
     {
-      "file": "web/chapters/第02章_全球AI劳动资源统计.md",
-      "obj": "sub__20261110T25r2__1.gz",
-      "sha": "cbdb3384aaf089ec4d9a4d0101969bf112b557f00e4d89ee8543c9008cfdf7a7",
-      "bytes": 67953
-    },
-    {
-      "file": "web/chapters/第03章_更久远的背景回望.md",
-      "obj": "sub__20261110T25r2__2.gz",
-      "sha": "21eca9818a45afc8769d546652b3dd58e93ca4f12e1fe31d4f3345328b5c8199",
-      "bytes": 70487
-    },
-    {
-      "file": "web/chapters/第04章_形势问题对策与硅基理论解析.md",
-      "obj": "sub__20261110T25r2__3.gz",
-      "sha": "ec42cb768894ae1081bb38f482c827b2d150cdbf3088dfa9347919dd130f75e8",
-      "bytes": 106034
-    },
-    {
-      "file": "web/chapters/第05章_三元HSR治理框架设计.md",
-      "obj": "sub__20261110T25r2__4.gz",
-      "sha": "ee77866f51d64f4d2c16132040a0ae6d964acaa32000a39928a214ee3d81275b",
-      "bytes": 46898
-    },
-    {
-      "file": "web/chapters/第06章_木桶新论智能体矩阵与流程重构.md",
-      "obj": "sub__20261110T25r2__5.gz",
-      "sha": "39974605999bc26a410ae9c9cb656dcdc6e352a5d8f3bd24a248294b463b3bc5",
-      "bytes": 31904
-    },
-    {
-      "file": "web/chapters/第07章_把蓝图变成大地制度化框架.md",
-      "obj": "sub__20261110T25r2__6.gz",
-      "sha": "27936dcfec9c89be45eecb3ad54a09410a6198cd7539b86e6cefbec850736510",
-      "bytes": 30645
-    },
-    {
-      "file": "web/chapters/第08章_走向人机共生文明_三元分论.md",
-      "obj": "sub__20261110T25r2__7.gz",
-      "sha": "da6ec32d67727603485a7ea7b772483a94a3b2af855c2b9b639a1e61e21dfa68",
-      "bytes": 14893
-    },
-    {
-      "file": "web/chapters/第09章_三元劳动力可持续发展伦理.md",
-      "obj": "sub__20261110T25r2__8.gz",
-      "sha": "5750c4579283c3eb40e39d640a12ab8378b9f3a60f4e9ecd6d2ab7b9677a387a",
-      "bytes": 15163
-    },
-    {
-      "file": "web/chapters/第10章_三元劳动资源分类管理.md",
-      "obj": "sub__20261110T25r2__9.gz",
-      "sha": "9feb695efc801da134a8bcb0f394035ddbdfcd5953a3b663ab45994aec9a0346",
-      "bytes": 78036
-    },
-    {
-      "file": "web/chapters/第11章_HSR三元文明演化进程与行动指南.md",
-      "obj": "sub__20261110T25r2__10.gz",
-      "sha": "d0c959a6ed778f2a6fa9843317c017b461dda2675c4b352943be5c4a5822885c",
-      "bytes": 21690
-    },
-    {
-      "file": "web/chapters/第12章_HSR开发神话_万年人类精神劳动资源.md",
-      "obj": "sub__20261110T25r2__11.gz",
-      "sha": "20fad4a2bdab7ecf9460216788730beb27e7de0203607faff343629884fc6291",
-      "bytes": 20636
-    },
-    {
-      "file": "web/chapters/第13章_中国HR信息化数字化历史.md",
-      "obj": "sub__20261110T25r2__12.gz",
-      "sha": "4c5cb619a2d04bec500827251d29532617560146ff96628db47161683548b9a6",
-      "bytes": 20723
-    },
-    {
-      "file": "web/chapters/第14章_从EHR到DHR再到HSR.md",
-      "obj": "sub__20261110T25r2__13.gz",
-      "sha": "4214340e2736289fb6f88c6fb988be3909fe050cd2250c4a8578ef52c947896d",
-      "bytes": 16307
-    },
-    {
-      "file": "web/chapters/第15章_自行车到飞机_治理方法论.md",
-      "obj": "sub__20261110T25r2__14.gz",
-      "sha": "749fcf435c8a969662e18c370414d87463f6a072a09b855789235b0a19eb13fd",
-      "bytes": 18918
-    },
-    {
-      "file": "web/chapters/第16章_政府HR三元化路径.md",
-      "obj": "sub__20261110T25r2__15.gz",
-      "sha": "89c4029e096b22edd92e51e387337d52b0c39dba8f33be227c598d1ff9480178",
-      "bytes": 45779
-    },
-    {
-      "file": "web/chapters/第17章_HR_HSR连续体.md",
-      "obj": "sub__20261110T25r2__16.gz",
-      "sha": "2e01c4d49f1eab81044c700f4c2c70f5ccf2545bc6c10118f707fd64ca843f8b",
-      "bytes": 53720
-    },
-    {
-      "file": "web/chapters/第18章_构建橄榄型三元文明.md",
-      "obj": "sub__20261110T25r2__17.gz",
-      "sha": "db2fcf753f54c692799ef8ddcf442aa17e427fa7f19f9ab8d6e500053dde75b6",
-      "bytes": 83427
-    },
-    {
-      "file": "web/chapters/第19章_走向人机共生文明.md",
-      "obj": "sub__20261110T25r2__18.gz",
-      "sha": "f1bb257231c1257c1d6f5e0316b5c8c51ad86311a26ccb436a4032c2640d27b1",
-      "bytes": 66800
-    },
-    {
-      "file": "web/chapters/第20章_结合实际_学习借鉴美国.md",
-      "obj": "sub__20261110T25r2__19.gz",
-      "sha": "204c3d16f986b2bfbcd8cf958554d1c5884aab4d35963eaa2645b5f9c277597b",
-      "bytes": 80477
-    },
-    {
-      "file": "web/chapters/第21章_科学家企业家视角_HSR.md",
-      "obj": "sub__20261110T25r2__20.gz",
-      "sha": "32406703ed6c3a878a8639bea8865d877ad879b674bc48ff14e813feab465dee",
-      "bytes": 46727
-    },
-    {
-      "file": "web/chapters/第22章_三元劳动AI智能体.md",
-      "obj": "sub__20261110T25r2__21.gz",
-      "sha": "6ff84c9654398110bf366ed5f61d5dcedfb878442bc6b5a516131d8f1ffec1cc",
-      "bytes": 58660
+      "file": "web/wechat-help.html",
+      "obj": "sub__20261110T26login__1.gz",
+      "sha": "bcd9f267210a623ee5f19eeb42ccc9f759f467be7a074b513e8fbee3113d9438",
+      "bytes": 3519
     }
   ]
 }
