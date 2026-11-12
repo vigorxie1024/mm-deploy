@@ -1,17 +1,17 @@
 {
-  "version": "2026-11-10T27-login",
-  "note": "登录引导改造（重试）",
+  "version": "2026-11-10T28-login",
+  "note": "登录引导改造（带重试）",
   "approved_by": "asus",
   "files": [
     {
       "file": "web/login.html",
-      "obj": "sub__20261110T27login__0.gz",
+      "obj": "sub__20261110T28login__0.gz",
       "sha": "b96838eacb35daff13635fe6044f9687962a5604dccd7f0352a86761c0dc8ff6",
       "bytes": 10483
     },
     {
       "file": "web/wechat-help.html",
-      "obj": "sub__20261110T27login__1.gz",
+      "obj": "sub__20261110T28login__1.gz",
       "sha": "bcd9f267210a623ee5f19eeb42ccc9f759f467be7a074b513e8fbee3113d9438",
       "bytes": 3519
     }
