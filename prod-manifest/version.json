@@ -1,19 +1,19 @@
 {
-  "version": "2026-11-10T28-login",
-  "note": "登录引导改造（带重试）",
+  "version": "2026-11-13T22-toc-fallback",
+  "note": "toc static fallback",
   "approved_by": "asus",
   "files": [
     {
-      "file": "web/login.html",
-      "obj": "sub__20261110T28login__0.gz",
-      "sha": "b96838eacb35daff13635fe6044f9687962a5604dccd7f0352a86761c0dc8ff6",
-      "bytes": 10483
+      "file": "web/book-view.js",
+      "obj": "sub__20261113T22tocfallback__0.gz",
+      "sha": "b13a04f300264cd1baf76a1b788de9676eb2d78633568c40de5409b28b2d6407",
+      "bytes": 57281
     },
     {
-      "file": "web/wechat-help.html",
-      "obj": "sub__20261110T28login__1.gz",
-      "sha": "bcd9f267210a623ee5f19eeb42ccc9f759f467be7a074b513e8fbee3113d9438",
-      "bytes": 3519
+      "file": "web/outline-nodes.json",
+      "obj": "sub__20261113T22tocfallback__1.gz",
+      "sha": "e35ea76142535ddd5cbd36587b28436de0a0fcb6b1f03590542b5b770d038f76",
+      "bytes": 1158968
     }
   ]
 }
