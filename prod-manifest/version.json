@@ -1,13 +1,19 @@
 {
-  "version": "2026-11-14T10-ping",
-  "note": "liveness probe",
+  "version": "2026-11-14T11-boot2",
+  "note": "boot v2 with repo status report",
   "approved_by": "asus",
   "files": [
     {
-      "file": "web/llms.txt",
-      "obj": "sub__20261114T10ping__0.gz",
-      "sha": "8b981b2e689445da727fd0049f40dbb174b236c898b43b157239a514176b567c",
-      "bytes": 11635
+      "file": ".deploy/boot.sh",
+      "obj": "sub__20261114T11boot2__0.gz",
+      "sha": "158ec4f67da417b1f5e5d9bcd73ff6a191b9c99800de8dd6c58831d5ac2d5983",
+      "bytes": 3649
+    },
+    {
+      "file": ".deploy/auto-update.sh",
+      "obj": "sub__20261114T11boot2__1.gz",
+      "sha": "fabc6a70379e886ccbc718b40ebb5076bcf2dc616e5d7a5b0486a43f08512566",
+      "bytes": 5998
     }
   ]
 }
