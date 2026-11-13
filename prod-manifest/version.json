@@ -1,13 +1,13 @@
 {
-  "version": "2026-11-13T23-toc2",
-  "note": "server book-view toc fallback",
+  "version": "2026-11-13T23b-labels",
+  "note": "clean toc labels",
   "approved_by": "asus",
   "files": [
     {
-      "file": "server/book-view.js",
-      "obj": "sub__20261113T23toc2__0.gz",
-      "sha": "1bdc3a470a5ab4d802542fe7ded12a31dc3982c477caa400d2f738c8dda29b4a",
-      "bytes": 63196
+      "file": "web/outline-nodes.json",
+      "obj": "sub__20261113T23blabels__0.gz",
+      "sha": "4dd354b9613300698c8c308fa97b895cb9a80913921c190eec7fa26703a7dca3",
+      "bytes": 1102170
     }
   ]
 }
