@@ -1,25 +1,19 @@
 {
-  "version": "2026-11-14T08-pay",
-  "note": "compliance page + pay status",
+  "version": "2026-11-14T09-boot",
+  "note": "asus zero-click bootstrap",
   "approved_by": "asus",
   "files": [
     {
-      "file": "web/compliance.html",
-      "obj": "sub__20261114T08pay__0.gz",
-      "sha": "3cb2e4308e1330f49022415396d8ebc37700b9448a7cfcac2a19839792b402e0",
-      "bytes": 5740
+      "file": ".deploy/boot.sh",
+      "obj": "sub__20261114T09boot__0.gz",
+      "sha": "54ae684896e1a53f93480c73f78137f4f734910128558c388ab81d667703a6e1",
+      "bytes": 4325
     },
     {
-      "file": "web/pay.html",
-      "obj": "sub__20261114T08pay__1.gz",
-      "sha": "94de4940c0b854a78d14609db558cfbeb7ad1f01d951aad2116c8ed236e62b8c",
-      "bytes": 19565
-    },
-    {
-      "file": "web/service.html",
-      "obj": "sub__20261114T08pay__2.gz",
-      "sha": "bd1fc85fb3946390e4a1a9177bfb2657cdfcec72b592bd4e96baadd9e964638b",
-      "bytes": 8154
+      "file": ".deploy/auto-update.sh",
+      "obj": "sub__20261114T09boot__1.gz",
+      "sha": "295af8168e24772480662e0f9034cb95def8e68038b56a1d7f5deed7bc3e0a89",
+      "bytes": 5892
     }
   ]
 }
