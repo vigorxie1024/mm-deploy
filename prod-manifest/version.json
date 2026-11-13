@@ -1,19 +1,13 @@
 {
-  "version": "2026-11-14T12-boot3",
-  "note": "boot v3 web status",
+  "version": "2026-11-14T13-boot4",
+  "note": "boot v4 node mux",
   "approved_by": "asus",
   "files": [
     {
       "file": ".deploy/boot.sh",
-      "obj": "sub__20261114T12boot3__0.gz",
-      "sha": "9f9bf5037f4d21f09f735ab415cb13cf57f4412326bdfdb368f8d9b26c007a7a",
-      "bytes": 3219
-    },
-    {
-      "file": ".deploy/auto-update.sh",
-      "obj": "sub__20261114T12boot3__1.gz",
-      "sha": "cc3e50e409e57bf6d9560644b2d74b1008cf01e51e4f134888a20c186c5a2999",
-      "bytes": 5873
+      "obj": "sub__20261114T13boot4__0.gz",
+      "sha": "eb6e0a7ff8bdaa673474ae82de24b4a56981902b764e1ec01a446679e1557460",
+      "bytes": 3316
     }
   ]
 }
