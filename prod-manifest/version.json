@@ -1,19 +1,13 @@
 {
-  "version": "2026-11-13T22-toc-fallback",
-  "note": "toc static fallback",
+  "version": "2026-11-13T23-toc2",
+  "note": "server book-view toc fallback",
   "approved_by": "asus",
   "files": [
     {
-      "file": "web/book-view.js",
-      "obj": "sub__20261113T22tocfallback__0.gz",
-      "sha": "b13a04f300264cd1baf76a1b788de9676eb2d78633568c40de5409b28b2d6407",
-      "bytes": 57281
-    },
-    {
-      "file": "web/outline-nodes.json",
-      "obj": "sub__20261113T22tocfallback__1.gz",
-      "sha": "e35ea76142535ddd5cbd36587b28436de0a0fcb6b1f03590542b5b770d038f76",
-      "bytes": 1158968
+      "file": "server/book-view.js",
+      "obj": "sub__20261113T23toc2__0.gz",
+      "sha": "1bdc3a470a5ab4d802542fe7ded12a31dc3982c477caa400d2f738c8dda29b4a",
+      "bytes": 63196
     }
   ]
 }
