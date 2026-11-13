@@ -1,19 +1,13 @@
 {
-  "version": "2026-11-14T09-boot",
-  "note": "asus zero-click bootstrap",
+  "version": "2026-11-14T10-ping",
+  "note": "liveness probe",
   "approved_by": "asus",
   "files": [
     {
-      "file": ".deploy/boot.sh",
-      "obj": "sub__20261114T09boot__0.gz",
-      "sha": "54ae684896e1a53f93480c73f78137f4f734910128558c388ab81d667703a6e1",
-      "bytes": 4325
-    },
-    {
-      "file": ".deploy/auto-update.sh",
-      "obj": "sub__20261114T09boot__1.gz",
-      "sha": "295af8168e24772480662e0f9034cb95def8e68038b56a1d7f5deed7bc3e0a89",
-      "bytes": 5892
+      "file": "web/llms.txt",
+      "obj": "sub__20261114T10ping__0.gz",
+      "sha": "8b981b2e689445da727fd0049f40dbb174b236c898b43b157239a514176b567c",
+      "bytes": 11635
     }
   ]
 }
