@@ -1,13 +1,13 @@
 {
-  "version": "2026-11-14T21-langratio2",
-  "note": "hide english-dominant mixed paragraphs",
+  "version": "2026-11-14T22-deco",
+  "note": "deco stats real numbers",
   "approved_by": "asus",
   "files": [
     {
-      "file": "server/book-engine.js",
-      "obj": "sub__20261114T21langratio2__0.gz",
-      "sha": "f7901998cbcf30027c6d4873b09864622cb41401d90f26963d41ac088499217a",
-      "bytes": 16230
+      "file": "web/deco.html",
+      "obj": "sub__20261114T22deco__0.gz",
+      "sha": "8fa9cb3dff89e76c5b1a1f7b1751c191608d065fd33f969039fb6cc842bbc583",
+      "bytes": 29970
     }
   ]
 }
