@@ -1,19 +1,19 @@
 {
-  "version": "2026-11-14T15-cellauto",
-  "note": "cell auto login entry",
+  "version": "2026-11-14T16-lang",
+  "note": "language purity css + home",
   "approved_by": "asus",
   "files": [
     {
-      "file": "web/cschat-cell.html",
-      "obj": "sub__20261114T15cellauto__0.gz",
-      "sha": "01b6c1950955156462ea598097c6363f46de0a32b8f2dc21284d28630beaefe7",
-      "bytes": 27757
+      "file": "web/app.css",
+      "obj": "sub__20261114T16lang__0.gz",
+      "sha": "f300cf5ee73ed5b3e0a8f41bcd298aabe4a353d665da6977733863c83594d553",
+      "bytes": 17805
     },
     {
-      "file": "web/try.html",
-      "obj": "sub__20261114T15cellauto__1.gz",
-      "sha": "34578d6600ba98217881dc4d678892bcd9719adc48e0eb547b7194943c4ef024",
-      "bytes": 5678
+      "file": "web/index.html",
+      "obj": "sub__20261114T16lang__1.gz",
+      "sha": "8152ae637749567aaf9d20a117f21bca4b54ab58fac8cace24c55a43d10bd1a8",
+      "bytes": 16988
     }
   ]
 }
