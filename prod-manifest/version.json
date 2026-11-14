@@ -1,13 +1,13 @@
 {
-  "version": "2026-11-14T19-langcss",
-  "note": "fix lang selector zh-CN vs zh",
+  "version": "2026-11-14T20-langratio",
+  "note": "hide mixed english dominant paragraphs",
   "approved_by": "asus",
   "files": [
     {
-      "file": "server/book-view.js",
-      "obj": "sub__20261114T19langcss__0.gz",
-      "sha": "3262012d0ba268ab842158d7d083d26dd678b0d3431184e3474b4f93a4de39f8",
-      "bytes": 63195
+      "file": "server/book-engine.js",
+      "obj": "sub__20261114T20langratio__0.gz",
+      "sha": "a4e76b0ed78fbe2bce0a5923cfb2c71e8fc637a93177827913a360c5fafb558d",
+      "bytes": 16201
     }
   ]
 }
