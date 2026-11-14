@@ -1,13 +1,13 @@
 {
-  "version": "2026-11-14T18-langstrict2",
-  "note": "relax english prose threshold",
+  "version": "2026-11-14T19-langcss",
+  "note": "fix lang selector zh-CN vs zh",
   "approved_by": "asus",
   "files": [
     {
-      "file": "server/book-engine.js",
-      "obj": "sub__20261114T18langstrict2__0.gz",
-      "sha": "39a9b37b35122ce05ac098d054f7bd88624211076b4cdc1d18b1eb95e3a6506a",
-      "bytes": 16072
+      "file": "server/book-view.js",
+      "obj": "sub__20261114T19langcss__0.gz",
+      "sha": "3262012d0ba268ab842158d7d083d26dd678b0d3431184e3474b4f93a4de39f8",
+      "bytes": 63195
     }
   ]
 }
