@@ -1,13 +1,37 @@
 {
-  "version": "2026-11-14T22-deco",
-  "note": "deco stats real numbers",
+  "version": "2026-11-14T23-inst",
+  "note": "institutional pages for OPC",
   "approved_by": "asus",
   "files": [
     {
-      "file": "web/deco.html",
-      "obj": "sub__20261114T22deco__0.gz",
-      "sha": "8fa9cb3dff89e76c5b1a1f7b1751c191608d065fd33f969039fb6cc842bbc583",
-      "bytes": 29970
+      "file": "web/about.html",
+      "obj": "sub__20261114T23inst__0.gz",
+      "sha": "ddbb5a43bf3e2047d76311fe9083dbb632e97645b251201fd3bf7496ea2ddf33",
+      "bytes": 5797
+    },
+    {
+      "file": "web/join.html",
+      "obj": "sub__20261114T23inst__1.gz",
+      "sha": "7954764c550c448dff5af227db48d0f83f1605b3fd3e793320ee65d9d7f5ce95",
+      "bytes": 5122
+    },
+    {
+      "file": "web/contact.html",
+      "obj": "sub__20261114T23inst__2.gz",
+      "sha": "a00a16cfcf1c50088f9cae326f9ced5aa72abcf1ad876093121cf45bd59d186d",
+      "bytes": 4189
+    },
+    {
+      "file": "web/team.html",
+      "obj": "sub__20261114T23inst__3.gz",
+      "sha": "f73034d1ec1badfaf17f2f850e2dc85844a182a310c78ef8227d84678ed6e09d",
+      "bytes": 3922
+    },
+    {
+      "file": "web/nav.registry.js",
+      "obj": "sub__20261114T23inst__4.gz",
+      "sha": "5e6caca4f5e2d594a8c837665ce7d1315335fc223ced7721949d50a6d5d5f552",
+      "bytes": 5780
     }
   ]
 }
