@@ -1,19 +1,13 @@
 {
-  "version": "2026-11-14T17-langstrict",
-  "note": "strict english prose hiding in zh pages",
+  "version": "2026-11-14T18-langstrict2",
+  "note": "relax english prose threshold",
   "approved_by": "asus",
   "files": [
     {
       "file": "server/book-engine.js",
-      "obj": "sub__20261114T17langstrict__0.gz",
-      "sha": "f1fd7850c450d521652b1aae963bbc532a7ed72319fa17093f7f23dd6ee7eeab",
+      "obj": "sub__20261114T18langstrict2__0.gz",
+      "sha": "39a9b37b35122ce05ac098d054f7bd88624211076b4cdc1d18b1eb95e3a6506a",
       "bytes": 16072
-    },
-    {
-      "file": "server/book-view.js",
-      "obj": "sub__20261114T17langstrict__1.gz",
-      "sha": "0e1b58eb233bc89a5eae95c889bcfc10211ab5a4366a81377d167a26a009c1ab",
-      "bytes": 63195
     }
   ]
 }
