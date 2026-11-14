@@ -1,19 +1,19 @@
 {
-  "version": "2026-11-14T16-lang",
-  "note": "language purity css + home",
+  "version": "2026-11-14T17-langstrict",
+  "note": "strict english prose hiding in zh pages",
   "approved_by": "asus",
   "files": [
     {
-      "file": "web/app.css",
-      "obj": "sub__20261114T16lang__0.gz",
-      "sha": "f300cf5ee73ed5b3e0a8f41bcd298aabe4a353d665da6977733863c83594d553",
-      "bytes": 17805
+      "file": "server/book-engine.js",
+      "obj": "sub__20261114T17langstrict__0.gz",
+      "sha": "f1fd7850c450d521652b1aae963bbc532a7ed72319fa17093f7f23dd6ee7eeab",
+      "bytes": 16072
     },
     {
-      "file": "web/index.html",
-      "obj": "sub__20261114T16lang__1.gz",
-      "sha": "8152ae637749567aaf9d20a117f21bca4b54ab58fac8cace24c55a43d10bd1a8",
-      "bytes": 16988
+      "file": "server/book-view.js",
+      "obj": "sub__20261114T17langstrict__1.gz",
+      "sha": "0e1b58eb233bc89a5eae95c889bcfc10211ab5a4366a81377d167a26a009c1ab",
+      "bytes": 63195
     }
   ]
 }
