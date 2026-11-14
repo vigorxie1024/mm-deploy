@@ -1,37 +1,25 @@
 {
-  "version": "2026-11-14T23-inst",
-  "note": "institutional pages for OPC",
+  "version": "2026-11-15T01-a7fix",
+  "note": "fix blocking issues from A7 browser regression",
   "approved_by": "asus",
   "files": [
     {
-      "file": "web/about.html",
-      "obj": "sub__20261114T23inst__0.gz",
-      "sha": "ddbb5a43bf3e2047d76311fe9083dbb632e97645b251201fd3bf7496ea2ddf33",
-      "bytes": 5797
+      "file": "web/renovation.html",
+      "obj": "sub__20261115T01a7fix__0.gz",
+      "sha": "f8db2b72a2cb567727aad2ef125f4631aa7f7a979e654ac9888f3d08d8697f3e",
+      "bytes": 7755
     },
     {
-      "file": "web/join.html",
-      "obj": "sub__20261114T23inst__1.gz",
-      "sha": "7954764c550c448dff5af227db48d0f83f1605b3fd3e793320ee65d9d7f5ce95",
-      "bytes": 5122
+      "file": "web/service.html",
+      "obj": "sub__20261115T01a7fix__1.gz",
+      "sha": "edee3f4cb83b20b9754b756355ea801375dd832955831833ef552fd354741727",
+      "bytes": 8832
     },
     {
-      "file": "web/contact.html",
-      "obj": "sub__20261114T23inst__2.gz",
-      "sha": "a00a16cfcf1c50088f9cae326f9ced5aa72abcf1ad876093121cf45bd59d186d",
-      "bytes": 4189
-    },
-    {
-      "file": "web/team.html",
-      "obj": "sub__20261114T23inst__3.gz",
-      "sha": "f73034d1ec1badfaf17f2f850e2dc85844a182a310c78ef8227d84678ed6e09d",
-      "bytes": 3922
-    },
-    {
-      "file": "web/nav.registry.js",
-      "obj": "sub__20261114T23inst__4.gz",
-      "sha": "5e6caca4f5e2d594a8c837665ce7d1315335fc223ced7721949d50a6d5d5f552",
-      "bytes": 5780
+      "file": "web/app.css",
+      "obj": "sub__20261115T01a7fix__2.gz",
+      "sha": "04b90d7316917104118d6a37381a4a8115e32a251c00eb8df1f764e2155919ee",
+      "bytes": 17917
     }
   ]
 }
