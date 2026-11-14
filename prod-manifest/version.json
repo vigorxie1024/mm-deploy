@@ -1,13 +1,13 @@
 {
-  "version": "2026-11-14T20-langratio",
-  "note": "hide mixed english dominant paragraphs",
+  "version": "2026-11-14T21-langratio2",
+  "note": "hide english-dominant mixed paragraphs",
   "approved_by": "asus",
   "files": [
     {
       "file": "server/book-engine.js",
-      "obj": "sub__20261114T20langratio__0.gz",
-      "sha": "a4e76b0ed78fbe2bce0a5923cfb2c71e8fc637a93177827913a360c5fafb558d",
-      "bytes": 16201
+      "obj": "sub__20261114T21langratio2__0.gz",
+      "sha": "f7901998cbcf30027c6d4873b09864622cb41401d90f26963d41ac088499217a",
+      "bytes": 16230
     }
   ]
 }
