@@ -1,19 +1,31 @@
 {
-  "version": "2026-11-15T02-a7fix2",
-  "note": "wechat contact + mobile side + deco entries",
+  "version": "2026-11-15T03-voice",
+  "note": "voice hub v1 by A7",
   "approved_by": "asus",
   "files": [
     {
-      "file": "web/contact.html",
-      "obj": "sub__20261115T02a7fix2__0.gz",
-      "sha": "76b18d31497682cbae627d8c51371ed8df51ba24e58ef8be2722610a5f23da42",
-      "bytes": 4750
+      "file": "web/voice-hub.html",
+      "obj": "sub__20261115T03voice__0.gz",
+      "sha": "4c395e74286d0f9f6d2116bb0212637c30de0d600191d81512c1d041ef800433",
+      "bytes": 4662
     },
     {
-      "file": "web/renovation.html",
-      "obj": "sub__20261115T02a7fix2__1.gz",
-      "sha": "df8a09147d100d9748eab00d53eda8edbe7243f86f1dca59b0b9c954aeffc8ab",
-      "bytes": 9994
+      "file": "web/voice-hub.js",
+      "obj": "sub__20261115T03voice__1.gz",
+      "sha": "404818012c4ec33461f4229baf15b176e20d568e3bf8fe132adc6e0240adf3f8",
+      "bytes": 10681
+    },
+    {
+      "file": "web/voice-alias.json",
+      "obj": "sub__20261115T03voice__2.gz",
+      "sha": "40f2b78e1ff75421c837d957a7f284770cd2f9ffd7cf2c325b6695da06955934",
+      "bytes": 29598
+    },
+    {
+      "file": "web/nav.registry.js",
+      "obj": "sub__20261115T03voice__3.gz",
+      "sha": "fba5c4b794a24105ba0c609872dd78cfce09565367efc5cb6d5a4c2b63ee1636",
+      "bytes": 5862
     }
   ]
 }
