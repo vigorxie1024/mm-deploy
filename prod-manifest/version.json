@@ -1,25 +1,19 @@
 {
-  "version": "2026-11-15T01-a7fix",
-  "note": "fix blocking issues from A7 browser regression",
+  "version": "2026-11-15T02-a7fix2",
+  "note": "wechat contact + mobile side + deco entries",
   "approved_by": "asus",
   "files": [
     {
+      "file": "web/contact.html",
+      "obj": "sub__20261115T02a7fix2__0.gz",
+      "sha": "76b18d31497682cbae627d8c51371ed8df51ba24e58ef8be2722610a5f23da42",
+      "bytes": 4750
+    },
+    {
       "file": "web/renovation.html",
-      "obj": "sub__20261115T01a7fix__0.gz",
-      "sha": "f8db2b72a2cb567727aad2ef125f4631aa7f7a979e654ac9888f3d08d8697f3e",
-      "bytes": 7755
-    },
-    {
-      "file": "web/service.html",
-      "obj": "sub__20261115T01a7fix__1.gz",
-      "sha": "edee3f4cb83b20b9754b756355ea801375dd832955831833ef552fd354741727",
-      "bytes": 8832
-    },
-    {
-      "file": "web/app.css",
-      "obj": "sub__20261115T01a7fix__2.gz",
-      "sha": "04b90d7316917104118d6a37381a4a8115e32a251c00eb8df1f764e2155919ee",
-      "bytes": 17917
+      "obj": "sub__20261115T02a7fix2__1.gz",
+      "sha": "df8a09147d100d9748eab00d53eda8edbe7243f86f1dca59b0b9c954aeffc8ab",
+      "bytes": 9994
     }
   ]
 }
