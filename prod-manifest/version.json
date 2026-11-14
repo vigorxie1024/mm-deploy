@@ -1,13 +1,19 @@
 {
-  "version": "2026-11-14T13-boot4",
-  "note": "boot v4 node mux",
+  "version": "2026-11-14T15-cellauto",
+  "note": "cell auto login entry",
   "approved_by": "asus",
   "files": [
     {
-      "file": ".deploy/boot.sh",
-      "obj": "sub__20261114T13boot4__0.gz",
-      "sha": "eb6e0a7ff8bdaa673474ae82de24b4a56981902b764e1ec01a446679e1557460",
-      "bytes": 3316
+      "file": "web/cschat-cell.html",
+      "obj": "sub__20261114T15cellauto__0.gz",
+      "sha": "01b6c1950955156462ea598097c6363f46de0a32b8f2dc21284d28630beaefe7",
+      "bytes": 27757
+    },
+    {
+      "file": "web/try.html",
+      "obj": "sub__20261114T15cellauto__1.gz",
+      "sha": "34578d6600ba98217881dc4d678892bcd9719adc48e0eb547b7194943c4ef024",
+      "bytes": 5678
     }
   ]
 }
