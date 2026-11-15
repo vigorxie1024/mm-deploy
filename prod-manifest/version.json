@@ -1,13 +1,13 @@
 {
-  "version": "2026-11-15T06-fabfix",
-  "note": "fix draggable fab positioning",
+  "version": "2026-11-15T07-lcdrag",
+  "note": "draggable find-asus button",
   "approved_by": "asus",
   "files": [
     {
-      "file": "web/agent-chat.js",
-      "obj": "sub__20261115T06fabfix__0.gz",
-      "sha": "8ec5f248cc9ed2bd58a1a514ab4f41ca12c02cb18ec2e3f04b49ccb2fc639948",
-      "bytes": 8092
+      "file": "web/live-chat.js",
+      "obj": "sub__20261115T07lcdrag__0.gz",
+      "sha": "64577293db5a41ca94692f4ca0cedfa3d6467ea353bcad6c927a3afacf38fd88",
+      "bytes": 8096
     }
   ]
 }
