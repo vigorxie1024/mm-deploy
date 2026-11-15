@@ -1,31 +1,19 @@
 {
-  "version": "2026-11-15T03-voice",
-  "note": "voice hub v1 by A7",
+  "version": "2026-11-15T04-langstate",
+  "note": "require explicit language choice",
   "approved_by": "asus",
   "files": [
     {
-      "file": "web/voice-hub.html",
-      "obj": "sub__20261115T03voice__0.gz",
-      "sha": "4c395e74286d0f9f6d2116bb0212637c30de0d600191d81512c1d041ef800433",
-      "bytes": 4662
+      "file": "web/i18n.js",
+      "obj": "sub__20261115T04langstate__0.gz",
+      "sha": "8b3e4f3ee7da66ec5b69d7a3c4f2d747ada04f9a2b4947ff07c165cd40b3f45f",
+      "bytes": 17405
     },
     {
-      "file": "web/voice-hub.js",
-      "obj": "sub__20261115T03voice__1.gz",
-      "sha": "404818012c4ec33461f4229baf15b176e20d568e3bf8fe132adc6e0240adf3f8",
-      "bytes": 10681
-    },
-    {
-      "file": "web/voice-alias.json",
-      "obj": "sub__20261115T03voice__2.gz",
-      "sha": "40f2b78e1ff75421c837d957a7f284770cd2f9ffd7cf2c325b6695da06955934",
-      "bytes": 29598
-    },
-    {
-      "file": "web/nav.registry.js",
-      "obj": "sub__20261115T03voice__3.gz",
-      "sha": "fba5c4b794a24105ba0c609872dd78cfce09565367efc5cb6d5a4c2b63ee1636",
-      "bytes": 5862
+      "file": "web/app.js",
+      "obj": "sub__20261115T04langstate__1.gz",
+      "sha": "cdf80d98df40eb62359f00837f2c168ff3c5e3a6f4866144f71b16a4951c2f51",
+      "bytes": 28784
     }
   ]
 }
