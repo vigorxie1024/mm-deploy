@@ -1,19 +1,13 @@
 {
-  "version": "2026-11-15T04-langstate",
-  "note": "require explicit language choice",
+  "version": "2026-11-15T05-fabdrag",
+  "note": "draggable assistant fab",
   "approved_by": "asus",
   "files": [
     {
-      "file": "web/i18n.js",
-      "obj": "sub__20261115T04langstate__0.gz",
-      "sha": "8b3e4f3ee7da66ec5b69d7a3c4f2d747ada04f9a2b4947ff07c165cd40b3f45f",
-      "bytes": 17405
-    },
-    {
-      "file": "web/app.js",
-      "obj": "sub__20261115T04langstate__1.gz",
-      "sha": "cdf80d98df40eb62359f00837f2c168ff3c5e3a6f4866144f71b16a4951c2f51",
-      "bytes": 28784
+      "file": "web/agent-chat.js",
+      "obj": "sub__20261115T05fabdrag__0.gz",
+      "sha": "57b90c2b9ab80a4ad30e9463eb238f33fe3ab0db63813673d3cec56ce1b45b89",
+      "bytes": 7930
     }
   ]
 }
