@@ -1,13 +1,13 @@
 {
-  "version": "2026-11-15T05-fabdrag",
-  "note": "draggable assistant fab",
+  "version": "2026-11-15T06-fabfix",
+  "note": "fix draggable fab positioning",
   "approved_by": "asus",
   "files": [
     {
       "file": "web/agent-chat.js",
-      "obj": "sub__20261115T05fabdrag__0.gz",
-      "sha": "57b90c2b9ab80a4ad30e9463eb238f33fe3ab0db63813673d3cec56ce1b45b89",
-      "bytes": 7930
+      "obj": "sub__20261115T06fabfix__0.gz",
+      "sha": "8ec5f248cc9ed2bd58a1a514ab4f41ca12c02cb18ec2e3f04b49ccb2fc639948",
+      "bytes": 8092
     }
   ]
 }
